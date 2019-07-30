@@ -23,8 +23,32 @@
 import UIKit
 import RxSwift
 
-let disposeBag = DisposeBag()
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Observable<Int>.create { (observer) -> Disposable in
+   observer.on(.next(0))
+   observer.onNext(1)
+   
+   observer.onCompleted()
+   
+   return Disposables.create()
+}
+
+
+
+Observable.from([1, 2, 3])
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -23,8 +23,31 @@
 import UIKit
 import RxSwift
 
-let disposeBag = DisposeBag()
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let bag = DisposeBag()
+
+Observable.from([1, 2, 3, 4, 5, 6, 7, 8, 9])
+   .subscribe { print($0) }
+   .disposed(by: bag)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

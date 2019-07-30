@@ -27,3 +27,16 @@ let disposeBag = DisposeBag()
 let fruits = ["🍏", "🍎", "🍋", "🍓", "🍇"]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
