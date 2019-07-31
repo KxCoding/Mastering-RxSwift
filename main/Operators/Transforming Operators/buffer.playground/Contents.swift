@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # buffer
+ */
+
 let disposeBag = DisposeBag()
 
 

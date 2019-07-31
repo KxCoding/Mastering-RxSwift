@@ -23,5 +23,9 @@
 import UIKit
 import RxSwift
 
+/*:
+ # scan
+ */
+
 let disposeBag = DisposeBag()
 

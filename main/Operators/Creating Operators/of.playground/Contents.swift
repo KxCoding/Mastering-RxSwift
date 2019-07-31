@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # of
+ */
+
 let disposeBag = DisposeBag()
 let apple = "🍏"
 let orange = "🍊"

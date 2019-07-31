@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # flatMap
+ */
+
 let disposeBag = DisposeBag()
 
 

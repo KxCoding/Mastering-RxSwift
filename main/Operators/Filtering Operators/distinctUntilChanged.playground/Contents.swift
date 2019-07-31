@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # distinctUntilChanged
+ */
+
 let disposeBag = DisposeBag()
 let numbers = [1, 1, 3, 2, 2, 3, 1, 5, 5, 7, 7, 7]
 

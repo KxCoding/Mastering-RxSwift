@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # flatMapFirst
+ */
+
 let disposeBag = DisposeBag()
 
 let a = BehaviorSubject(value: 1)

@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # map
+ */
+
 let disposeBag = DisposeBag()
 let skills = ["Swift", "SwiftUI", "RxSwift"]
 

@@ -23,5 +23,9 @@
 import UIKit
 import RxSwift
 
+/*:
+ # skipUntil
+ */
+
 let disposeBag = DisposeBag()
 

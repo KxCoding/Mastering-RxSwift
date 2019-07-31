@@ -23,4 +23,8 @@
 import UIKit
 import RxSwift
 
+/*:
+ # throttle
+ */
+
 let disposeBag = DisposeBag()

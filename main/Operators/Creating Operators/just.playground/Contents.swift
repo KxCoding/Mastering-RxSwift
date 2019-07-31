@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # just
+ */
+
 let disposeBag = DisposeBag()
 let element = "😀"
 

@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # toArray
+ */
+
 let disposeBag = DisposeBag()
 
 

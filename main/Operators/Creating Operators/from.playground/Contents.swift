@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # from
+ */
+
 let disposeBag = DisposeBag()
 let fruits = ["🍏", "🍎", "🍋", "🍓", "🍇"]
 

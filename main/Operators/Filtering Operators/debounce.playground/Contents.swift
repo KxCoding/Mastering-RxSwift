@@ -23,6 +23,10 @@
 import UIKit
 import RxSwift
 
+/*:
+ # debounce
+ */
+
 let disposeBag = DisposeBag()
 
 
