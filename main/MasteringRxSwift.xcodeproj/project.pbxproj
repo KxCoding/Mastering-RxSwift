@@ -30,6 +30,9 @@
 		AA1D2E4C22967B260044E487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA1D2E5422967F960044E487 /* create.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = create.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA1D2E56229683EB0044E487 /* error.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = error.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA214E3422F4140500EF775C /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA214E3522F42CAE00EF775C /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA214E3622F43DE900EF775C /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA2A8EDA22A23F66003F79C1 /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4EBBB422B8CE0100A8488E /* toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = toArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4EBBB522B8D9A500A8488E /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -111,7 +114,7 @@
 			children = (
 				AA01CE2222E33EF60002BB18 /* Hello */,
 				AA01CE2422E33F270002BB18 /* KeyConcepts */,
-				AA7825F322EB57B8003D96BB /* Subjects */,
+				AA214E3322F413F100EF775C /* Subjects */,
 				AA1D2E5322967F890044E487 /* Operators */,
 				AA1D2E3F22967B250044E487 /* MasteringRxSwift */,
 				AA1D2E3E22967B250044E487 /* Products */,
@@ -171,6 +174,16 @@
 				AA1D2E56229683EB0044E487 /* error.playground */,
 			);
 			path = "Creating Operators";
+			sourceTree = "<group>";
+		};
+		AA214E3322F413F100EF775C /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				AA214E3422F4140500EF775C /* PublishSubject.playground */,
+				AA214E3522F42CAE00EF775C /* BehaviorSubject.playground */,
+				AA214E3622F43DE900EF775C /* ReplaySubject.playground */,
+			);
+			path = Subjects;
 			sourceTree = "<group>";
 		};
 		AA72EE7E22A41441009AC871 /* Filtering Operators */ = {
@@ -244,13 +257,6 @@
 				AAA99FD922B9F66A007AAEEC /* window.playground */,
 			);
 			path = "Transforming Operators";
-			sourceTree = "<group>";
-		};
-		AA7825F322EB57B8003D96BB /* Subjects */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Subjects;
 			sourceTree = "<group>";
 		};
 		CEE9B96157CCDEDAD1B8DF19 /* Pods */ = {
