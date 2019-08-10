@@ -24,10 +24,11 @@ import UIKit
 import RxSwift
 
 /*:
- # flatMap
+ # concat
  */
 
-let disposeBag = DisposeBag()
-
+let bag = DisposeBag()
+let fruits = Observable.from(["🍏", "🍎", "🥝", "🍑", "🍋", "🍉"])
+let animals = Observable.from(["🐶", "🐱", "🐹", "🐼", "🐯", "🐵"])
 
 

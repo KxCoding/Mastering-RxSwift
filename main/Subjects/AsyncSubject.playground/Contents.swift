@@ -22,12 +22,15 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 /*:
- # flatMap
+ # AsyncSubject
  */
 
-let disposeBag = DisposeBag()
+let bag = DisposeBag()
 
-
+enum MyError: Error {
+   case error
+}
 

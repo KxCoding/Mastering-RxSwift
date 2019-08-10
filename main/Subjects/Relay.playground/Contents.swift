@@ -22,12 +22,12 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 
 /*:
- # flatMap
+ # Relay
  */
 
-let disposeBag = DisposeBag()
-
+let bag = DisposeBag()
 
 

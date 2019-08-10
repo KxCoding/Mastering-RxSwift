@@ -24,10 +24,10 @@ import UIKit
 import RxSwift
 
 /*:
- # flatMap
+ # startWith
  */
 
-let disposeBag = DisposeBag()
-
+let bag = DisposeBag()
+let numbers = [1, 2, 3, 4, 5]
 
 
