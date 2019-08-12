@@ -34,6 +34,9 @@
 		AA214E3522F42CAE00EF775C /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA214E3622F43DE900EF775C /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA2A8EDA22A23F66003F79C1 /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA2E397522FEDBE700E204BF /* merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = merge.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA2E397622FEF7D200E204BF /* combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA2E397722FF15C000E204BF /* zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4EBBB422B8CE0100A8488E /* toArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = toArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4EBBB522B8D9A500A8488E /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4EBBB622B8E04900A8488E /* flatMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = flatMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -263,6 +266,9 @@
 			children = (
 				AA8A5C3722FAA5DB0020C1E6 /* startWith.playground */,
 				AA8A5C3822FAAB7E0020C1E6 /* concat.playground */,
+				AA2E397522FEDBE700E204BF /* merge.playground */,
+				AA2E397622FEF7D200E204BF /* combineLatest.playground */,
+				AA2E397722FF15C000E204BF /* zip.playground */,
 			);
 			path = "Combining Operators";
 			sourceTree = "<group>";
