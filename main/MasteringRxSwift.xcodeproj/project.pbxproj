@@ -73,6 +73,10 @@
 		AA72EE7B22A3B256009AC871 /* generate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = generate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA72EE7C22A3BE80009AC871 /* deferred.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = deferred.playground; path = ../deferred.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA72EE7D22A3F204009AC871 /* empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA74F913230B0047004B97FF /* catchError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA74F914230B01DB004B97FF /* catchErrorJustReturn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchErrorJustReturn.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA74F915230B01FA004B97FF /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA74F916230B0215004B97FF /* retryWhen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retryWhen.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA8A5C3422FA75980020C1E6 /* Relay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Relay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA8A5C3522FA97340020C1E6 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA8A5C3722FAA5DB0020C1E6 /* startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = startWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -83,6 +87,7 @@
 		AAA9F94A230524A000539F6C /* timer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9F94B230524AD00539F6C /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9F94C230524BE00539F6C /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAFD61CB23081C38006ECD19 /* Scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E0A2C89A5D74E986B59A5178 /* Pods_MasteringRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasteringRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +137,8 @@
 				AA01CE2422E33F270002BB18 /* KeyConcepts */,
 				AA214E3322F413F100EF775C /* Subjects */,
 				AA1D2E5322967F890044E487 /* Operators */,
+				AAFD61CA23081C18006ECD19 /* Scheduler */,
+				AA74F912230B002A004B97FF /* ErrorHandling */,
 				AA1D2E3F22967B250044E487 /* MasteringRxSwift */,
 				AA1D2E3E22967B250044E487 /* Products */,
 				CEE9B96157CCDEDAD1B8DF19 /* Pods */,
@@ -264,6 +271,17 @@
 			path = "Transforming Operators";
 			sourceTree = "<group>";
 		};
+		AA74F912230B002A004B97FF /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				AA74F913230B0047004B97FF /* catchError.playground */,
+				AA74F914230B01DB004B97FF /* catchErrorJustReturn.playground */,
+				AA74F915230B01FA004B97FF /* retry.playground */,
+				AA74F916230B0215004B97FF /* retryWhen.playground */,
+			);
+			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
 		AA8A5C3622FAA5CD0020C1E6 /* Combining Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +307,14 @@
 				AAA9F94C230524BE00539F6C /* delay.playground */,
 			);
 			path = "Time-based Operators";
+			sourceTree = "<group>";
+		};
+		AAFD61CA23081C18006ECD19 /* Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				AAFD61CB23081C38006ECD19 /* Scheduler.playground */,
+			);
+			path = Scheduler;
 			sourceTree = "<group>";
 		};
 		CEE9B96157CCDEDAD1B8DF19 /* Pods */ = {
