@@ -21,14 +21,34 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-   var window: UIWindow?
-
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-      // Override point for customization after application launch.
-      return true
+class ControlPropertyControlEventRxCocoaViewController: UIViewController {
+   
+   let bag = DisposeBag()
+   
+   @IBOutlet weak var colorView: UIView!
+   
+   @IBOutlet weak var redSlider: UISlider!
+   @IBOutlet weak var greenSlider: UISlider!
+   @IBOutlet weak var blueSlider: UISlider!
+   
+   @IBOutlet weak var redComponentLabel: UILabel!
+   @IBOutlet weak var greenComponentLabel: UILabel!
+   @IBOutlet weak var blueComponentLabel: UILabel!
+   
+   @IBOutlet weak var resetButton: UIButton!
+   
+   private func updateComponentLabel() {
+      redComponentLabel.text = "\(Int(redSlider.value))"
+      greenComponentLabel.text = "\(Int(greenSlider.value))"
+      blueComponentLabel.text = "\(Int(blueSlider.value))"
+   }
+   
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      
+      
    }
 }
-

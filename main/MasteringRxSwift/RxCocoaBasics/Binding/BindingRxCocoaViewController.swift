@@ -21,14 +21,30 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-   var window: UIWindow?
-
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-      // Override point for customization after application launch.
-      return true
+class BindingRxCocoaViewController: UIViewController {
+   
+   @IBOutlet weak var valueLabel: UILabel!
+   
+   @IBOutlet weak var valueField: UITextField!
+   
+   let disposeBag = DisposeBag()
+   
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      
+      valueLabel.text = ""
+      valueField.becomeFirstResponder()
+      
+      
+      
+   }
+   
+   override func viewWillDisappear(_ animated: Bool) {
+      super.viewWillDisappear(animated)
+      
+      valueField.resignFirstResponder()
    }
 }
-
