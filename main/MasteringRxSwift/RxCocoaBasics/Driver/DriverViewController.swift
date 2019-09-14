@@ -42,7 +42,7 @@ class DriverViewController: UIViewController {
       super.viewDidLoad()
       
       let result = inputField.rx.text
-         .flatMapLatest { validate(numberString: $0) }
+         .flatMapLatest { validateText($0) }
 
       result
          .map { $0 ? "Ok" : "Error" }
@@ -62,15 +62,15 @@ class DriverViewController: UIViewController {
 }
 
 
-func validate(numberString: String?) -> Observable<Bool> {
+func validateText(_ value: String?) -> Observable<Bool> {
    return Observable<Bool>.create { observer in
-      print("== \(numberString ?? "") Sequence Start ==")
+      print("== \(value ?? "") Sequence Start ==")
       
       defer {
-         print("== \(numberString ?? "") Sequence End ==")
+         print("== \(value ?? "") Sequence End ==")
       }
       
-      guard let str = numberString, let _ = Double(str) else {
+      guard let str = value, let _ = Double(str) else {
          observer.onError(ValidationError.notANumber)
          return Disposables.create()
       }
