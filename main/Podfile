@@ -8,4 +8,13 @@ target 'MasteringRxSwift' do
   # Pods for MasteringRxSwift
   pod 'RxSwift'
   pod 'RxCocoa'
+
+  # RxSwift Community Projects
+  pod 'NSObject+Rx'
+  pod 'RxSwiftExt'
+  pod 'Action'
+  pod 'RxDataSources'
+  pod "RxGesture"
+  pod 'RxReachability'
+  pod 'RxKeyboard'
 end

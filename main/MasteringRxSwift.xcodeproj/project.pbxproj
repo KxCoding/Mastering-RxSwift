@@ -3,26 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		43F4317B8BDE530A36FB2430 /* Pods_MasteringRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A2C89A5D74E986B59A5178 /* Pods_MasteringRxSwift.framework */; };
+		AA1932B6231937070019286D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1932B5231937070019286D /* Product.swift */; };
+		AA1932B923193DD20019286D /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1932B823193DD20019286D /* TableView.storyboard */; };
+		AA1932BC23193FEB0019286D /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1932BB23193FEB0019286D /* ProductTableViewCell.swift */; };
+		AA1932BE2319408B0019286D /* CocoaTouchTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1932BD2319408B0019286D /* CocoaTouchTableViewViewController.swift */; };
+		AA1932C0231940AC0019286D /* RxCocoaTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1932BF231940AC0019286D /* RxCocoaTableViewViewController.swift */; };
 		AA1D2E4122967B250044E487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2E4022967B250044E487 /* AppDelegate.swift */; };
 		AA1D2E4622967B250044E487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2E4422967B250044E487 /* Main.storyboard */; };
 		AA1D2E4822967B260044E487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2E4722967B260044E487 /* Assets.xcassets */; };
 		AA1D2E4B22967B260044E487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2E4922967B260044E487 /* LaunchScreen.storyboard */; };
+		AA4202DB232B94AD00F3168F /* Gesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4202DA232B94AD00F3168F /* Gesture.storyboard */; };
+		AA4202DD232B959D00F3168F /* CocoaTouchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4202DC232B959D00F3168F /* CocoaTouchGestureViewController.swift */; };
+		AA4202DF232B95B200F3168F /* RxCocoaGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4202DE232B95B200F3168F /* RxCocoaGestureViewController.swift */; };
 		AA4DB5672313C10400026E59 /* Hello.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4DB5662313C10400026E59 /* Hello.storyboard */; };
 		AA4DB5692313C67F00026E59 /* HelloCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB5682313C67F00026E59 /* HelloCocoaTouchViewController.swift */; };
 		AA4DB56B2313C68B00026E59 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB56A2313C68B00026E59 /* HelloRxCocoaViewController.swift */; };
 		AA4DB56E2313D11D00026E59 /* Binding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4DB56D2313D11D00026E59 /* Binding.storyboard */; };
 		AA4DB5702313D24C00026E59 /* BindingCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB56F2313D24C00026E59 /* BindingCocoaTouchViewController.swift */; };
 		AA4DB5722313D26700026E59 /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4DB5712313D26700026E59 /* BindingRxCocoaViewController.swift */; };
+		AA62149123220D950002A1FE /* NotificationCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA62149023220D950002A1FE /* NotificationCenter.storyboard */; };
+		AA6214932322107C0002A1FE /* CocoaTouchNotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6214922322107C0002A1FE /* CocoaTouchNotificationCenterViewController.swift */; };
+		AA621495232216A20002A1FE /* RxCocoaNotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA621494232216A20002A1FE /* RxCocoaNotificationCenterViewController.swift */; };
+		AA676192232A290E00030C63 /* CommunityProjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA676191232A290E00030C63 /* CommunityProjects.storyboard */; };
+		AA676194232A2A1200030C63 /* NSObjectRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA676193232A2A1200030C63 /* NSObjectRxViewController.swift */; };
+		AA6761B3232A2EDE00030C63 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6761B2232A2EDE00030C63 /* ActionViewController.swift */; };
+		AA6761B6232A2F8100030C63 /* RxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6761B5232A2F8100030C63 /* RxDataSourcesViewController.swift */; };
+		AA6761B9232A30C500030C63 /* RxGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6761B8232A30C500030C63 /* RxGestureViewController.swift */; };
+		AA6761BC232A317800030C63 /* RxReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6761BB232A317800030C63 /* RxReachabilityViewController.swift */; };
+		AA6761BF232A324400030C63 /* RxKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6761BE232A324400030C63 /* RxKeyboardViewController.swift */; };
 		AA84BDEB23166EF80069F05E /* ControlPropertyControlEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA84BDEA23166EF80069F05E /* ControlPropertyControlEvent.storyboard */; };
 		AA84BDED23166F3F0069F05E /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84BDEC23166F3F0069F05E /* ControlPropertyControlEventCocoaTouchViewController.swift */; };
 		AA84BDEF23166F510069F05E /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84BDEE23166F510069F05E /* ControlPropertyControlEventRxCocoaViewController.swift */; };
 		AA84BDF223168ED30069F05E /* Driver.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA84BDF123168ED30069F05E /* Driver.storyboard */; };
 		AA84BDF423168F7B0069F05E /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA84BDF323168F7B0069F05E /* DriverViewController.swift */; };
+		AA907CD6231EAC6000C0C860 /* MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA907CD5231EAC6000C0C860 /* MaterialColor.swift */; };
+		AA907CDA231EADE200C0C860 /* CollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA907CD9231EADE200C0C860 /* CollectionView.storyboard */; };
+		AA907CDC231EB12900C0C860 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA907CDB231EB12900C0C860 /* ColorCollectionViewCell.swift */; };
+		AA907CDE231EB18400C0C860 /* CocoaTouchCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA907CDD231EB18400C0C860 /* CocoaTouchCollectionViewViewController.swift */; };
+		AA907CE0231EB8C800C0C860 /* RxCocoaCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA907CDF231EB8C800C0C860 /* RxCocoaCollectionViewViewController.swift */; };
+		AAFF6F71231FB23C00B86AF7 /* AlertController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFF6F70231FB23C00B86AF7 /* AlertController.storyboard */; };
+		AAFF6F73231FB83200B86AF7 /* CocoaTouchAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF6F72231FB83200B86AF7 /* CocoaTouchAlertViewController.swift */; };
+		AAFF6F75231FB84500B86AF7 /* RxCocoaAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF6F74231FB84500B86AF7 /* RxCocoaAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +57,11 @@
 		AA01CE2322E33F060002BB18 /* Hello.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hello.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA01CE2522E33F430002BB18 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA01CE2622E34BB80002BB18 /* Observers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA1932B5231937070019286D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AA1932B823193DD20019286D /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		AA1932BB23193FEB0019286D /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		AA1932BD2319408B0019286D /* CocoaTouchTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchTableViewViewController.swift; sourceTree = "<group>"; };
+		AA1932BF231940AC0019286D /* RxCocoaTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTableViewViewController.swift; sourceTree = "<group>"; };
 		AA1D2E3D22967B250044E487 /* MasteringRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasteringRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA1D2E4022967B250044E487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA1D2E4522967B250044E487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +77,9 @@
 		AA2E397522FEDBE700E204BF /* merge.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = merge.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA2E397622FEF7D200E204BF /* combineLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combineLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA2E397722FF15C000E204BF /* zip.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = zip.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA4202DA232B94AD00F3168F /* Gesture.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gesture.storyboard; sourceTree = "<group>"; };
+		AA4202DC232B959D00F3168F /* CocoaTouchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchGestureViewController.swift; sourceTree = "<group>"; };
+		AA4202DE232B95B200F3168F /* RxCocoaGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaGestureViewController.swift; sourceTree = "<group>"; };
 		AA4399DE230110B000C3B7EA /* withLatestFrom.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = withLatestFrom.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4399DF230110DF00C3B7EA /* switchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = switchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA4399E0230110F300C3B7EA /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -65,6 +99,9 @@
 		AA4FD76522E41F35003545B6 /* Disposables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA50304622EAD592006AA44B /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA5F4F5C22B936A700A9D8C8 /* scan.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scan.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA62149023220D950002A1FE /* NotificationCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotificationCenter.storyboard; sourceTree = "<group>"; };
+		AA6214922322107C0002A1FE /* CocoaTouchNotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchNotificationCenterViewController.swift; sourceTree = "<group>"; };
+		AA621494232216A20002A1FE /* RxCocoaNotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaNotificationCenterViewController.swift; sourceTree = "<group>"; };
 		AA64FA4322A4A7EA00CF3EF0 /* ignoreElements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ignoreElements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA64FA4422A4A80A00CF3EF0 /* elementAt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elementAt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA64FA4522A4A81B00CF3EF0 /* filter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -81,6 +118,40 @@
 		AA64FA5022A4A9C100CF3EF0 /* throttle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = throttle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA64FA5122A4A9D100CF3EF0 /* sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA64FA5222A4A9EC00CF3EF0 /* sampleLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = sampleLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA676191232A290E00030C63 /* CommunityProjects.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CommunityProjects.storyboard; sourceTree = "<group>"; };
+		AA676193232A2A1200030C63 /* NSObjectRxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectRxViewController.swift; sourceTree = "<group>"; };
+		AA676196232A2BDD00030C63 /* unwrap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = unwrap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA676197232A2CB200030C63 /* ignore.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ignore.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA676198232A2CDD00030C63 /* ignoreWhen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ignoreWhen.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA676199232A2D1000030C63 /* once.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = once.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619A232A2D4700030C63 /* distinct.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = distinct.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619B232A2D6000030C63 /* map.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = map.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619C232A2D6F00030C63 /* not.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = not.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619D232A2E5100030C63 /* bufferWithTrigger.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = bufferWithTrigger.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619E232A2E5100030C63 /* nwise.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = nwise.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA67619F232A2E5100030C63 /* retryWithBehavior.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retryWithBehavior.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A0232A2E5100030C63 /* zipWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = zipWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A1232A2E5100030C63 /* elements.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = elements.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A2232A2E5100030C63 /* fromAsync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = fromAsync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A3232A2E5200030C63 /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A4232A2E5200030C63 /* errors.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = errors.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A5232A2E5200030C63 /* filterMap.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filterMap.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A6232A2E5200030C63 /* withUnretained.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = withUnretained.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A7232A2E5200030C63 /* catchErrorJustComplete.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchErrorJustComplete.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A8232A2E5200030C63 /* cascade.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = cascade.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761A9232A2E5200030C63 /* pairwise.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = pairwise.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AA232A2E5200030C63 /* count.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = count.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AB232A2E5200030C63 /* and.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = and.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AC232A2E5200030C63 /* apply.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = apply.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AD232A2E5300030C63 /* mergeWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = mergeWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AE232A2E5300030C63 /* pausable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = pausable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761AF232A2E5300030C63 /* pausableBuferred.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = pausableBuferred.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761B0232A2E5300030C63 /* partition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = partition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA6761B2232A2EDE00030C63 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		AA6761B5232A2F8100030C63 /* RxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		AA6761B8232A30C500030C63 /* RxGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxGestureViewController.swift; sourceTree = "<group>"; };
+		AA6761BB232A317800030C63 /* RxReachabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxReachabilityViewController.swift; sourceTree = "<group>"; };
+		AA6761BE232A324400030C63 /* RxKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxKeyboardViewController.swift; sourceTree = "<group>"; };
 		AA72EE7722A3966D009AC871 /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA72EE7822A39E3F009AC871 /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA72EE7922A3A19B009AC871 /* range.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = range.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -101,6 +172,11 @@
 		AA8A5C3522FA97340020C1E6 /* AsyncSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AsyncSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA8A5C3722FAA5DB0020C1E6 /* startWith.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = startWith.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA8A5C3822FAAB7E0020C1E6 /* concat.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = concat.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA907CD5231EAC6000C0C860 /* MaterialColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialColor.swift; sourceTree = "<group>"; };
+		AA907CD9231EADE200C0C860 /* CollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionView.storyboard; sourceTree = "<group>"; };
+		AA907CDB231EB12900C0C860 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA907CDD231EB18400C0C860 /* CocoaTouchCollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchCollectionViewViewController.swift; sourceTree = "<group>"; };
+		AA907CDF231EB8C800C0C860 /* RxCocoaCollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaCollectionViewViewController.swift; sourceTree = "<group>"; };
 		AAA99FD822B9E484007AAEEC /* buffer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = buffer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA99FD922B9F66A007AAEEC /* window.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = window.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9F949230523E600539F6C /* interval.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = interval.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -108,6 +184,9 @@
 		AAA9F94B230524AD00539F6C /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9F94C230524BE00539F6C /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAFD61CB23081C38006ECD19 /* Scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAFF6F70231FB23C00B86AF7 /* AlertController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertController.storyboard; sourceTree = "<group>"; };
+		AAFF6F72231FB83200B86AF7 /* CocoaTouchAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchAlertViewController.swift; sourceTree = "<group>"; };
+		AAFF6F74231FB84500B86AF7 /* RxCocoaAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaAlertViewController.swift; sourceTree = "<group>"; };
 		E0A2C89A5D74E986B59A5178 /* Pods_MasteringRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasteringRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -150,6 +229,45 @@
 			path = KeyConcepts;
 			sourceTree = "<group>";
 		};
+		AA1932B323191BAE0019286D /* RxCocoaCommonPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				AA1932B723193DC40019286D /* TableView */,
+				AA907CD7231EADBC00C0C860 /* CollectionView */,
+				AAFF6F6F231FB21400B86AF7 /* AlertController */,
+				AA62148F23220D760002A1FE /* NotificationCenter */,
+				AA4202D9232B947B00F3168F /* Gesture */,
+			);
+			path = RxCocoaCommonPatterns;
+			sourceTree = "<group>";
+		};
+		AA1932B4231936F70019286D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AA907CD4231EAC4800C0C860 /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AA1932B723193DC40019286D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				AA1932BA23193FD90019286D /* Cell */,
+				AA1932B823193DD20019286D /* TableView.storyboard */,
+				AA1932BD2319408B0019286D /* CocoaTouchTableViewViewController.swift */,
+				AA1932BF231940AC0019286D /* RxCocoaTableViewViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		AA1932BA23193FD90019286D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA1932BB23193FEB0019286D /* ProductTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		AA1D2E3422967B250044E487 = {
 			isa = PBXGroup;
 			children = (
@@ -177,7 +295,10 @@
 		AA1D2E3F22967B250044E487 /* MasteringRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AA1932B4231936F70019286D /* Common */,
 				AA4EC9D9230D31A600DDF205 /* RxCocoaBasics */,
+				AA1932B323191BAE0019286D /* RxCocoaCommonPatterns */,
+				AA67618F232A286A00030C63 /* CommunityProjects */,
 				AA1D2E4022967B250044E487 /* AppDelegate.swift */,
 				AA1D2E4422967B250044E487 /* Main.storyboard */,
 				AA1D2E4722967B260044E487 /* Assets.xcassets */,
@@ -231,6 +352,16 @@
 			path = Subjects;
 			sourceTree = "<group>";
 		};
+		AA4202D9232B947B00F3168F /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				AA4202DA232B94AD00F3168F /* Gesture.storyboard */,
+				AA4202DC232B959D00F3168F /* CocoaTouchGestureViewController.swift */,
+				AA4202DE232B95B200F3168F /* RxCocoaGestureViewController.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
 		AA44346123045F1B00339C95 /* Conditional Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +399,113 @@
 				AA84BDF023168EC50069F05E /* Driver */,
 			);
 			path = RxCocoaBasics;
+			sourceTree = "<group>";
+		};
+		AA62148F23220D760002A1FE /* NotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				AA62149023220D950002A1FE /* NotificationCenter.storyboard */,
+				AA6214922322107C0002A1FE /* CocoaTouchNotificationCenterViewController.swift */,
+				AA621494232216A20002A1FE /* RxCocoaNotificationCenterViewController.swift */,
+			);
+			path = NotificationCenter;
+			sourceTree = "<group>";
+		};
+		AA67618F232A286A00030C63 /* CommunityProjects */ = {
+			isa = PBXGroup;
+			children = (
+				AA676190232A288700030C63 /* NSObject+Rx */,
+				AA676195232A2B5C00030C63 /* RxSwiftExt */,
+				AA6761B1232A2E9C00030C63 /* Action */,
+				AA6761B4232A2F6800030C63 /* RxDataSources */,
+				AA6761B7232A30A000030C63 /* RxGesture */,
+				AA6761BA232A316900030C63 /* RxReachability */,
+				AA6761BD232A322B00030C63 /* RxKeyboard */,
+				AA676191232A290E00030C63 /* CommunityProjects.storyboard */,
+			);
+			path = CommunityProjects;
+			sourceTree = "<group>";
+		};
+		AA676190232A288700030C63 /* NSObject+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				AA676193232A2A1200030C63 /* NSObjectRxViewController.swift */,
+			);
+			path = "NSObject+Rx";
+			sourceTree = "<group>";
+		};
+		AA676195232A2B5C00030C63 /* RxSwiftExt */ = {
+			isa = PBXGroup;
+			children = (
+				AA676196232A2BDD00030C63 /* unwrap.playground */,
+				AA676197232A2CB200030C63 /* ignore.playground */,
+				AA676198232A2CDD00030C63 /* ignoreWhen.playground */,
+				AA676199232A2D1000030C63 /* once.playground */,
+				AA67619A232A2D4700030C63 /* distinct.playground */,
+				AA67619B232A2D6000030C63 /* map.playground */,
+				AA67619C232A2D6F00030C63 /* not.playground */,
+				AA6761AB232A2E5200030C63 /* and.playground */,
+				AA6761AC232A2E5200030C63 /* apply.playground */,
+				AA67619D232A2E5100030C63 /* bufferWithTrigger.playground */,
+				AA6761A8232A2E5200030C63 /* cascade.playground */,
+				AA6761A7232A2E5200030C63 /* catchErrorJustComplete.playground */,
+				AA6761AA232A2E5200030C63 /* count.playground */,
+				AA6761A1232A2E5100030C63 /* elements.playground */,
+				AA6761A4232A2E5200030C63 /* errors.playground */,
+				AA6761A5232A2E5200030C63 /* filterMap.playground */,
+				AA6761A2232A2E5100030C63 /* fromAsync.playground */,
+				AA6761AD232A2E5300030C63 /* mergeWith.playground */,
+				AA67619E232A2E5100030C63 /* nwise.playground */,
+				AA6761A9232A2E5200030C63 /* pairwise.playground */,
+				AA6761B0232A2E5300030C63 /* partition.playground */,
+				AA6761AE232A2E5300030C63 /* pausable.playground */,
+				AA6761AF232A2E5300030C63 /* pausableBuferred.playground */,
+				AA6761A3232A2E5200030C63 /* retry.playground */,
+				AA67619F232A2E5100030C63 /* retryWithBehavior.playground */,
+				AA6761A6232A2E5200030C63 /* withUnretained.playground */,
+				AA6761A0232A2E5100030C63 /* zipWith.playground */,
+			);
+			path = RxSwiftExt;
+			sourceTree = "<group>";
+		};
+		AA6761B1232A2E9C00030C63 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				AA6761B2232A2EDE00030C63 /* ActionViewController.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		AA6761B4232A2F6800030C63 /* RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				AA6761B5232A2F8100030C63 /* RxDataSourcesViewController.swift */,
+			);
+			path = RxDataSources;
+			sourceTree = "<group>";
+		};
+		AA6761B7232A30A000030C63 /* RxGesture */ = {
+			isa = PBXGroup;
+			children = (
+				AA6761B8232A30C500030C63 /* RxGestureViewController.swift */,
+			);
+			path = RxGesture;
+			sourceTree = "<group>";
+		};
+		AA6761BA232A316900030C63 /* RxReachability */ = {
+			isa = PBXGroup;
+			children = (
+				AA6761BB232A317800030C63 /* RxReachabilityViewController.swift */,
+			);
+			path = RxReachability;
+			sourceTree = "<group>";
+		};
+		AA6761BD232A322B00030C63 /* RxKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA6761BE232A324400030C63 /* RxKeyboardViewController.swift */,
+			);
+			path = RxKeyboard;
 			sourceTree = "<group>";
 		};
 		AA72EE7E22A41441009AC871 /* Filtering Operators */ = {
@@ -368,6 +606,34 @@
 			path = "Combining Operators";
 			sourceTree = "<group>";
 		};
+		AA907CD4231EAC4800C0C860 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA1932B5231937070019286D /* Product.swift */,
+				AA907CD5231EAC6000C0C860 /* MaterialColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA907CD7231EADBC00C0C860 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				AA907CD8231EADCC00C0C860 /* Cell */,
+				AA907CD9231EADE200C0C860 /* CollectionView.storyboard */,
+				AA907CDD231EB18400C0C860 /* CocoaTouchCollectionViewViewController.swift */,
+				AA907CDF231EB8C800C0C860 /* RxCocoaCollectionViewViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		AA907CD8231EADCC00C0C860 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AA907CDB231EB12900C0C860 /* ColorCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		AAA9F948230523BE00539F6C /* Time-based Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +651,16 @@
 				AAFD61CB23081C38006ECD19 /* Scheduler.playground */,
 			);
 			path = Scheduler;
+			sourceTree = "<group>";
+		};
+		AAFF6F6F231FB21400B86AF7 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AAFF6F70231FB23C00B86AF7 /* AlertController.storyboard */,
+				AAFF6F72231FB83200B86AF7 /* CocoaTouchAlertViewController.swift */,
+				AAFF6F74231FB84500B86AF7 /* RxCocoaAlertViewController.swift */,
+			);
+			path = AlertController;
 			sourceTree = "<group>";
 		};
 		CEE9B96157CCDEDAD1B8DF19 /* Pods */ = {
@@ -458,11 +734,17 @@
 			files = (
 				AA4DB5672313C10400026E59 /* Hello.storyboard in Resources */,
 				AA4DB56E2313D11D00026E59 /* Binding.storyboard in Resources */,
+				AA676192232A290E00030C63 /* CommunityProjects.storyboard in Resources */,
 				AA84BDEB23166EF80069F05E /* ControlPropertyControlEvent.storyboard in Resources */,
+				AA907CDA231EADE200C0C860 /* CollectionView.storyboard in Resources */,
 				AA84BDF223168ED30069F05E /* Driver.storyboard in Resources */,
+				AA62149123220D950002A1FE /* NotificationCenter.storyboard in Resources */,
+				AAFF6F71231FB23C00B86AF7 /* AlertController.storyboard in Resources */,
 				AA1D2E4B22967B260044E487 /* LaunchScreen.storyboard in Resources */,
 				AA1D2E4822967B260044E487 /* Assets.xcassets in Resources */,
+				AA1932B923193DD20019286D /* TableView.storyboard in Resources */,
 				AA1D2E4622967B250044E487 /* Main.storyboard in Resources */,
+				AA4202DB232B94AD00F3168F /* Gesture.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,24 +779,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,14 +797,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAFF6F73231FB83200B86AF7 /* CocoaTouchAlertViewController.swift in Sources */,
+				AA6214932322107C0002A1FE /* CocoaTouchNotificationCenterViewController.swift in Sources */,
 				AA84BDF423168F7B0069F05E /* DriverViewController.swift in Sources */,
+				AA907CDE231EB18400C0C860 /* CocoaTouchCollectionViewViewController.swift in Sources */,
+				AA676194232A2A1200030C63 /* NSObjectRxViewController.swift in Sources */,
 				AA84BDED23166F3F0069F05E /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
+				AA1932BE2319408B0019286D /* CocoaTouchTableViewViewController.swift in Sources */,
 				AA84BDEF23166F510069F05E /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */,
+				AA6761B6232A2F8100030C63 /* RxDataSourcesViewController.swift in Sources */,
+				AAFF6F75231FB84500B86AF7 /* RxCocoaAlertViewController.swift in Sources */,
 				AA4DB56B2313C68B00026E59 /* HelloRxCocoaViewController.swift in Sources */,
 				AA4DB5722313D26700026E59 /* BindingRxCocoaViewController.swift in Sources */,
+				AA621495232216A20002A1FE /* RxCocoaNotificationCenterViewController.swift in Sources */,
 				AA1D2E4122967B250044E487 /* AppDelegate.swift in Sources */,
+				AA4202DF232B95B200F3168F /* RxCocoaGestureViewController.swift in Sources */,
+				AA1932B6231937070019286D /* Product.swift in Sources */,
+				AA6761B3232A2EDE00030C63 /* ActionViewController.swift in Sources */,
+				AA6761B9232A30C500030C63 /* RxGestureViewController.swift in Sources */,
+				AA907CE0231EB8C800C0C860 /* RxCocoaCollectionViewViewController.swift in Sources */,
+				AA4202DD232B959D00F3168F /* CocoaTouchGestureViewController.swift in Sources */,
+				AA6761BC232A317800030C63 /* RxReachabilityViewController.swift in Sources */,
+				AA907CDC231EB12900C0C860 /* ColorCollectionViewCell.swift in Sources */,
+				AA1932C0231940AC0019286D /* RxCocoaTableViewViewController.swift in Sources */,
+				AA1932BC23193FEB0019286D /* ProductTableViewCell.swift in Sources */,
+				AA907CD6231EAC6000C0C860 /* MaterialColor.swift in Sources */,
 				AA4DB5702313D24C00026E59 /* BindingCocoaTouchViewController.swift in Sources */,
 				AA4DB5692313C67F00026E59 /* HelloCocoaTouchViewController.swift in Sources */,
+				AA6761BF232A324400030C63 /* RxKeyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +971,7 @@
 			baseConfigurationReference = 8BC0B83444D86C5EE22CA3E8 /* Pods-MasteringRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MasteringRxSwift/Info.plist;
@@ -699,6 +993,7 @@
 			baseConfigurationReference = 81D6A7D352D4EED13040E6E8 /* Pods-MasteringRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MasteringRxSwift/Info.plist;
