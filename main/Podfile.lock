@@ -2,10 +2,22 @@ PODS:
   - Action (4.0.0):
     - RxCocoa (~> 5.0)
     - RxSwift (~> 5.0)
+  - Alamofire (4.9.0)
   - Differentiator (4.0.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
   - "NSObject+Rx (5.0.2)":
     - RxSwift (~> 5.0)
   - ReachabilitySwift (4.3.1)
+  - Result (4.1.0)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
   - RxCocoa (5.0.0):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -26,32 +38,38 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
-  - RxSwiftExt (5.0.0):
-    - RxSwiftExt/Core (= 5.0.0)
-    - RxSwiftExt/RxCocoa (= 5.0.0)
-  - RxSwiftExt/Core (5.0.0):
+  - RxSwiftExt (5.1.1):
+    - RxSwiftExt/Core (= 5.1.1)
+    - RxSwiftExt/RxCocoa (= 5.1.1)
+  - RxSwiftExt/Core (5.1.1):
     - RxSwift (~> 5.0)
-  - RxSwiftExt/RxCocoa (5.0.0):
+  - RxSwiftExt/RxCocoa (5.1.1):
     - RxCocoa (~> 5.0)
     - RxSwiftExt/Core
 
 DEPENDENCIES:
   - Action
+  - Moya
   - "NSObject+Rx"
+  - RxAlamofire
   - RxCocoa
   - RxDataSources
   - RxGesture
   - RxKeyboard
   - RxReachability
-  - RxSwift
+  - RxSwift (~> 5.0.0)
   - RxSwiftExt
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Action
+    - Alamofire
     - Differentiator
+    - Moya
     - "NSObject+Rx"
     - ReachabilitySwift
+    - Result
+    - RxAlamofire
     - RxCocoa
     - RxDataSources
     - RxGesture
@@ -63,9 +81,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   "NSObject+Rx": 2eb2cf51fd1c554118449a7fbc36e4cd620b9e94
   ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxGesture: 0cd8e37ff9a266e1c31f46bcaed6de1c536bc81e
@@ -73,8 +95,8 @@ SPEC CHECKSUMS:
   RxReachability: 21d3e96f39bc166a21c357e923f47dec148ca97b
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
-  RxSwiftExt: 4564187392cc53823ef241fa4a11647861567026
+  RxSwiftExt: 0d2fd77523a169d1459be34961b996a194bdef0e
 
-PODFILE CHECKSUM: d41c3550c41e47269b06de7a40e0a045622d84dd
+PODFILE CHECKSUM: 17f5b8b55924f92329539fa9b723573340b53c2e
 
 COCOAPODS: 1.7.5

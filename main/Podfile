@@ -6,7 +6,7 @@ target 'MasteringRxSwift' do
   use_frameworks!
 
   # Pods for MasteringRxSwift
-  pod 'RxSwift'
+  pod 'RxSwift', '~> 5.0.0'
   pod 'RxCocoa'
 
   # RxSwift Community Projects
@@ -17,4 +17,7 @@ target 'MasteringRxSwift' do
   pod "RxGesture"
   pod 'RxReachability'
   pod 'RxKeyboard'
+
+  # Networking
+  pod 'RxAlamofire'
 end
