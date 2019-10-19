@@ -23,8 +23,11 @@
 import UIKit
 import RxSwift
 
+/*:
+ # groupBy
+ */
+
 let disposeBag = DisposeBag()
 let words = ["Apple", "Banana", "Orange", "Book", "City", "Axe"]
-
 
 
