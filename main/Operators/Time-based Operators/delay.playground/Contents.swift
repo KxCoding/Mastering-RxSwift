@@ -29,6 +29,10 @@ import RxSwift
 
 let bag = DisposeBag()
 
-
+func currentTimeString() -> String {
+   let f = DateFormatter()
+   f.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
+   return f.string(from: Date())
+}
 
 

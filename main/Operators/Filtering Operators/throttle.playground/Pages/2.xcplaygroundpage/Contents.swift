@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 //
 //  Copyright (c) 2019 KxCoding <kky0317@gmail.com>
 //
@@ -24,35 +26,31 @@ import UIKit
 import RxSwift
 
 /*:
- # debounce
+ # throttle
+ ## latest parameter
  */
 
 let disposeBag = DisposeBag()
 
-let buttonTap = Observable<String>.create { observer in
-   DispatchQueue.global().async {
-      for i in 1...10 {
-         observer.onNext("Tap \(i)")
-         Thread.sleep(forTimeInterval: 0.3)
-      }
-      
-      Thread.sleep(forTimeInterval: 1)
-      
-      for i in 11...20 {
-         observer.onNext("Tap \(i)")
-         Thread.sleep(forTimeInterval: 0.5)
-      }
-      
-      observer.onCompleted()
-   }
-   
-   return Disposables.create {
-      
-   }
+func currentTimeString() -> String {
+   let f = DateFormatter()
+   f.dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
+   return f.string(from: Date())
 }
 
-buttonTap   
-   .subscribe { print($0) }
+
+Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+   .debug()
+   .take(10)
+   .throttle(.milliseconds(2500), latest: true, scheduler: MainScheduler.instance)
+   .subscribe { print(currentTimeString(), $0) }
    .disposed(by: disposeBag)
 
 
+Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance)
+   .debug()
+   .take(10)
+   .throttle(.milliseconds(2500), latest: false, scheduler: MainScheduler.instance)
+   .subscribe { print(currentTimeString(), $0) }
+   .disposed(by: disposeBag)
+ 

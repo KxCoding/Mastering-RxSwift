@@ -24,7 +24,7 @@ import UIKit
 import RxSwift
 
 /*:
- # debounce
+ # throttle
  */
 
 let disposeBag = DisposeBag()
@@ -46,13 +46,12 @@ let buttonTap = Observable<String>.create { observer in
       observer.onCompleted()
    }
    
-   return Disposables.create {
-      
-   }
+   return Disposables.create()
 }
+
 
 buttonTap   
    .subscribe { print($0) }
    .disposed(by: disposeBag)
 
-
+//: [Next](@next)
