@@ -27,6 +27,10 @@
 		AA26A8182727144B00C35F53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA26A81A2727144B00C35F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA26A8212727183900C35F53 /* Hello.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Hello.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAF90DF627271BC200BAEDF7 /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAF90DF727271CD700BAEDF7 /* Observers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observers.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAF90DF827271EA100BAEDF7 /* Disposables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Disposables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAF90DF9272722B900BAEDF7 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E9F947938923EAB9427447B1 /* Pods_MasteringRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasteringRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0F4CDCA03D2C408E021182 /* Pods-MasteringRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasteringRxSwift.release.xcconfig"; path = "Target Support Files/Pods-MasteringRxSwift/Pods-MasteringRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				AA26A8202727181B00C35F53 /* Hello */,
+				AAF90DF527271B9F00BAEDF7 /* KeyConcepts */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -99,6 +104,17 @@
 				AA26A8212727183900C35F53 /* Hello.playground */,
 			);
 			path = Hello;
+			sourceTree = "<group>";
+		};
+		AAF90DF527271B9F00BAEDF7 /* KeyConcepts */ = {
+			isa = PBXGroup;
+			children = (
+				AAF90DF627271BC200BAEDF7 /* Observables.playground */,
+				AAF90DF727271CD700BAEDF7 /* Observers.playground */,
+				AAF90DF827271EA100BAEDF7 /* Disposables.playground */,
+				AAF90DF9272722B900BAEDF7 /* Operators.playground */,
+			);
+			path = KeyConcepts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
