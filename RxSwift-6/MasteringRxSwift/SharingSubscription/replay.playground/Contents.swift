@@ -24,12 +24,37 @@
 import UIKit
 import RxSwift
 
+
 /*:
- # take(while:)
+ # replay, replayAll
  */
 
-let disposeBag = DisposeBag()
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let bag = DisposeBag()
+let subject = PublishSubject<Int>()
+let source = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance).take(5).multicast(subject)
+
+source
+    .subscribe { print("🔵", $0) }
+    .disposed(by: bag)
+
+source
+    .delaySubscription(.seconds(3), scheduler: MainScheduler.instance)
+    .subscribe { print("🔴", $0) }
+    .disposed(by: bag)
+
+source.connect()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

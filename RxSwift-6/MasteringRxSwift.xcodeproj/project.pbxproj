@@ -55,6 +55,12 @@
 		AA7C9F23272AFDD200EBB9F2 /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F24272AFDE300EBB9F2 /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F25272B012800EBB9F2 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA9245C272D182A0076CB28 /* overveiw.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = overveiw.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA9245D272D24AE0076CB28 /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA9245E272D357E0076CB28 /* publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA9245F272D37C20076CB28 /* replay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = replay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA92460272D3B750076CB28 /* refCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = refCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA92461272D6E2C0076CB28 /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -148,6 +154,7 @@
 				AAF90DF527271B9F00BAEDF7 /* KeyConcepts */,
 				AAF90DFA2727262000BAEDF7 /* Subjects */,
 				AABC4C6727299D0900DC90FA /* Operators */,
+				AAA9245B272D134B0076CB28 /* SharingSubscription */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -219,6 +226,19 @@
 				AA7C9F25272B012800EBB9F2 /* delaySubscription.playground */,
 			);
 			path = TimeBasedOperators;
+			sourceTree = "<group>";
+		};
+		AAA9245B272D134B0076CB28 /* SharingSubscription */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9245C272D182A0076CB28 /* overveiw.playground */,
+				AAA9245D272D24AE0076CB28 /* multicast.playground */,
+				AAA9245E272D357E0076CB28 /* publish.playground */,
+				AAA9245F272D37C20076CB28 /* replay.playground */,
+				AAA92460272D3B750076CB28 /* refCount.playground */,
+				AAA92461272D6E2C0076CB28 /* share.playground */,
+			);
+			path = SharingSubscription;
 			sourceTree = "<group>";
 		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {

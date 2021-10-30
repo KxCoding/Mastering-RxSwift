@@ -25,11 +25,35 @@ import UIKit
 import RxSwift
 
 /*:
- # take(while:)
+ # refCount
  */
 
-let disposeBag = DisposeBag()
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let bag = DisposeBag()
+let source = Observable<Int>.interval(.seconds(1), scheduler: MainScheduler.instance).debug().publish()
+
+let observer1 = source
+    .subscribe { print("🔵", $0) }
+
+source.connect()
+
+DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+    observer1.dispose()
+}
+
+DispatchQueue.main.asyncAfter(deadline: .now() + 7) {
+    let observer2 = source.subscribe { print("🔴", $0) }
+    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        observer2.dispose()
+    }
+}
+
+
+
+
+
+
+
 
 
 
