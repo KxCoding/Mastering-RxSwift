@@ -14,6 +14,9 @@
 		AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA26A8122727144A00C35F53 /* MasteringRxSwift.xcdatamodeld */; };
 		AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8152727144B00C35F53 /* Assets.xcassets */; };
 		AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8172727144B00C35F53 /* LaunchScreen.storyboard */; };
+		AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA9246A272DBBFA0076CB28 /* Hello.storyboard */; };
+		AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246D272DC0630076CB28 /* HelloCocoaTouchViewController.swift */; };
+		AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246F272DC07F0076CB28 /* HelloRxCocoaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		AAA92466272D7AFB0076CB28 /* catchAndReturn.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = catchAndReturn.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA92467272D7B700076CB28 /* retry.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retry.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA92468272D81440076CB28 /* retryWhen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = retryWhen.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA9246A272DBBFA0076CB28 /* Hello.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hello.storyboard; sourceTree = "<group>"; };
+		AAA9246D272DC0630076CB28 /* HelloCocoaTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCocoaTouchViewController.swift; sourceTree = "<group>"; };
+		AAA9246F272DC07F0076CB28 /* HelloRxCocoaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRxCocoaViewController.swift; sourceTree = "<group>"; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -162,6 +168,7 @@
 				AAA9245B272D134B0076CB28 /* SharingSubscription */,
 				AAA92462272D77810076CB28 /* Schedulers */,
 				AAA92464272D7A050076CB28 /* ErrorHandling */,
+				AAA92469272DBBD30076CB28 /* RxCocoaBasics */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -265,6 +272,24 @@
 				AAA92468272D81440076CB28 /* retryWhen.playground */,
 			);
 			path = ErrorHandling;
+			sourceTree = "<group>";
+		};
+		AAA92469272DBBD30076CB28 /* RxCocoaBasics */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9246C272DBD0A0076CB28 /* Hello */,
+			);
+			path = RxCocoaBasics;
+			sourceTree = "<group>";
+		};
+		AAA9246C272DBD0A0076CB28 /* Hello */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9246A272DBBFA0076CB28 /* Hello.storyboard */,
+				AAA9246D272DC0630076CB28 /* HelloCocoaTouchViewController.swift */,
+				AAA9246F272DC07F0076CB28 /* HelloRxCocoaViewController.swift */,
+			);
+			path = Hello;
 			sourceTree = "<group>";
 		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
@@ -408,6 +433,7 @@
 				AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */,
 				AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */,
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
+				AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +487,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA26A80A2727144A00C35F53 /* AppDelegate.swift in Sources */,
+				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA26A80C2727144A00C35F53 /* SceneDelegate.swift in Sources */,
+				AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
