@@ -61,6 +61,7 @@
 		AAA9245F272D37C20076CB28 /* replay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = replay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA92460272D3B750076CB28 /* refCount.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = refCount.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA92461272D6E2C0076CB28 /* share.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = share.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AAA92463272D77A20076CB28 /* scheduler.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = scheduler.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -155,6 +156,7 @@
 				AAF90DFA2727262000BAEDF7 /* Subjects */,
 				AABC4C6727299D0900DC90FA /* Operators */,
 				AAA9245B272D134B0076CB28 /* SharingSubscription */,
+				AAA92462272D77810076CB28 /* Schedulers */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -239,6 +241,14 @@
 				AAA92461272D6E2C0076CB28 /* share.playground */,
 			);
 			path = SharingSubscription;
+			sourceTree = "<group>";
+		};
+		AAA92462272D77810076CB28 /* Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+				AAA92463272D77A20076CB28 /* scheduler.playground */,
+			);
+			path = Schedulers;
 			sourceTree = "<group>";
 		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
