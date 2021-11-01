@@ -14,9 +14,14 @@
 		AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA26A8122727144A00C35F53 /* MasteringRxSwift.xcdatamodeld */; };
 		AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8152727144B00C35F53 /* Assets.xcassets */; };
 		AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8172727144B00C35F53 /* LaunchScreen.storyboard */; };
-		AA83597227303B0D00F5BFFB /* Binding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA83596F27303B0D00F5BFFB /* Binding.storyboard */; };
-		AA83597327303B0D00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */; };
-		AA83597427303B0D00F5BFFB /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */; };
+		AA83598427303CCC00F5BFFB /* Binding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA83598127303CCC00F5BFFB /* Binding.storyboard */; };
+		AA83598527303CCC00F5BFFB /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83598227303CCC00F5BFFB /* BindingRxCocoaViewController.swift */; };
+		AA83598627303CCC00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83598327303CCC00F5BFFB /* BindingCocoaTouchViewController.swift */; };
+		AA83598A27303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA83598727303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard */; };
+		AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83598827303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift */; };
+		AA83598C27303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83598927303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift */; };
+		AA83598F27303D0600F5BFFB /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83598D27303D0600F5BFFB /* DriverViewController.swift */; };
+		AA83599027303D0600F5BFFB /* Driver.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA83598E27303D0600F5BFFB /* Driver.storyboard */; };
 		AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA9246A272DBBFA0076CB28 /* Hello.storyboard */; };
 		AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246D272DC0630076CB28 /* HelloCocoaTouchViewController.swift */; };
 		AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246F272DC07F0076CB28 /* HelloRxCocoaViewController.swift */; };
@@ -61,9 +66,14 @@
 		AA7C9F23272AFDD200EBB9F2 /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F24272AFDE300EBB9F2 /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F25272B012800EBB9F2 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		AA83596F27303B0D00F5BFFB /* Binding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Binding.storyboard; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/Binding.storyboard"; sourceTree = "<group>"; };
-		AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingCocoaTouchViewController.swift; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/BindingCocoaTouchViewController.swift"; sourceTree = "<group>"; };
-		AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingRxCocoaViewController.swift; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/BindingRxCocoaViewController.swift"; sourceTree = "<group>"; };
+		AA83598127303CCC00F5BFFB /* Binding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Binding.storyboard; sourceTree = "<group>"; };
+		AA83598227303CCC00F5BFFB /* BindingRxCocoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingRxCocoaViewController.swift; sourceTree = "<group>"; };
+		AA83598327303CCC00F5BFFB /* BindingCocoaTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingCocoaTouchViewController.swift; sourceTree = "<group>"; };
+		AA83598727303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ControlPropertyControlEvent.storyboard; sourceTree = "<group>"; };
+		AA83598827303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPropertyControlEventCocoaTouchViewController.swift; sourceTree = "<group>"; };
+		AA83598927303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPropertyControlEventRxCocoaViewController.swift; sourceTree = "<group>"; };
+		AA83598D27303D0600F5BFFB /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		AA83598E27303D0600F5BFFB /* Driver.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Driver.storyboard; sourceTree = "<group>"; };
 		AAA9245C272D182A0076CB28 /* overveiw.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = overveiw.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245D272D24AE0076CB28 /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245E272D357E0076CB28 /* publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -251,11 +261,30 @@
 		AA83596E27303AE900F5BFFB /* Binding */ = {
 			isa = PBXGroup;
 			children = (
-				AA83596F27303B0D00F5BFFB /* Binding.storyboard */,
-				AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */,
-				AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */,
+				AA83598127303CCC00F5BFFB /* Binding.storyboard */,
+				AA83598327303CCC00F5BFFB /* BindingCocoaTouchViewController.swift */,
+				AA83598227303CCC00F5BFFB /* BindingRxCocoaViewController.swift */,
 			);
 			path = Binding;
+			sourceTree = "<group>";
+		};
+		AA83597527303BCE00F5BFFB /* ControlPropertyControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				AA83598727303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard */,
+				AA83598827303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift */,
+				AA83598927303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift */,
+			);
+			path = ControlPropertyControlEvent;
+			sourceTree = "<group>";
+		};
+		AA83597C27303C5A00F5BFFB /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				AA83598E27303D0600F5BFFB /* Driver.storyboard */,
+				AA83598D27303D0600F5BFFB /* DriverViewController.swift */,
+			);
+			path = Driver;
 			sourceTree = "<group>";
 		};
 		AAA9245B272D134B0076CB28 /* SharingSubscription */ = {
@@ -295,6 +324,8 @@
 			children = (
 				AAA9246C272DBD0A0076CB28 /* Hello */,
 				AA83596E27303AE900F5BFFB /* Binding */,
+				AA83597527303BCE00F5BFFB /* ControlPropertyControlEvent */,
+				AA83597C27303C5A00F5BFFB /* Driver */,
 			);
 			path = RxCocoaBasics;
 			sourceTree = "<group>";
@@ -448,7 +479,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */,
-				AA83597227303B0D00F5BFFB /* Binding.storyboard in Resources */,
+				AA83598427303CCC00F5BFFB /* Binding.storyboard in Resources */,
+				AA83598A27303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard in Resources */,
+				AA83599027303D0600F5BFFB /* Driver.storyboard in Resources */,
 				AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */,
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
 				AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */,
@@ -506,11 +539,14 @@
 			files = (
 				AA26A80A2727144A00C35F53 /* AppDelegate.swift in Sources */,
 				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
-				AA83597327303B0D00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
+				AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
+				AA83598C27303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */,
+				AA83598627303CCC00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
+				AA83598F27303D0600F5BFFB /* DriverViewController.swift in Sources */,
+				AA83598527303CCC00F5BFFB /* BindingRxCocoaViewController.swift in Sources */,
 				AA26A80C2727144A00C35F53 /* SceneDelegate.swift in Sources */,
 				AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */,
-				AA83597427303B0D00F5BFFB /* BindingRxCocoaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

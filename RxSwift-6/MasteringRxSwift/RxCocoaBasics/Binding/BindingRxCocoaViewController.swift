@@ -26,31 +26,27 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class ControlPropertyControlEventRxCocoaViewController: UIViewController {
+class BindingRxCocoaViewController: UIViewController {
     
-    let bag = DisposeBag()
+    @IBOutlet weak var valueLabel: UILabel!
     
-    @IBOutlet weak var colorView: UIView!
+    @IBOutlet weak var valueField: UITextField!
     
-    @IBOutlet weak var redSlider: UISlider!
-    @IBOutlet weak var greenSlider: UISlider!
-    @IBOutlet weak var blueSlider: UISlider!
-    
-    @IBOutlet weak var redComponentLabel: UILabel!
-    @IBOutlet weak var greenComponentLabel: UILabel!
-    @IBOutlet weak var blueComponentLabel: UILabel!
-    
-    @IBOutlet weak var resetButton: UIButton!
-    
-    private func updateComponentLabel() {
-        redComponentLabel.text = "\(Int(redSlider.value))"
-        greenComponentLabel.text = "\(Int(greenSlider.value))"
-        blueComponentLabel.text = "\(Int(blueSlider.value))"
-    }
+    let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        valueLabel.text = ""
+        valueField.becomeFirstResponder()
         
+        
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        valueField.resignFirstResponder()
     }
 }

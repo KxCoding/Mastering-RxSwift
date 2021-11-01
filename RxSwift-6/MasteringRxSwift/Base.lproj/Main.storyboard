@@ -74,6 +74,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="UL0-A7-69u" kind="show" id="JOq-Lm-dhO"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="AHy-0R-x2F" style="IBUITableViewCellStyleDefault" id="1V8-uH-5Mi">
                                         <rect key="frame" x="0.0" y="162.5" width="414" height="43.5"/>
@@ -91,6 +94,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="g3Y-Up-4bX" kind="show" id="hiS-Fk-5LE"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -295,6 +301,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1sg-fw-gZm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1500" y="-165"/>
+        </scene>
+        <!--ControlPropertyControlEvent-->
+        <scene sceneID="8wm-Cu-z5w">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ControlPropertyControlEvent" id="UL0-A7-69u" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="o41-XG-5qP"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OMh-Df-XVy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1595" y="-127"/>
+        </scene>
+        <!--Driver-->
+        <scene sceneID="5v6-Sx-PGq">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Driver" id="g3Y-Up-4bX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5LA-kU-gBT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0L5-J0-suB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1493" y="-92"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BJm-Mo-h7D">
