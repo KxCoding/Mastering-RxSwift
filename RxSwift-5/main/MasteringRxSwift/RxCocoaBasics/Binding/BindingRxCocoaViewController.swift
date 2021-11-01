@@ -1,5 +1,6 @@
 //
-//  Copyright (c) 2019 KxCoding <kky0317@gmail.com>
+//  Mastering RxSwift
+//  Copyright (c) KxCoding <help@kxcoding.com>
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -20,31 +21,32 @@
 //  THE SOFTWARE.
 //
 
+
 import UIKit
 import RxSwift
 import RxCocoa
 
 class BindingRxCocoaViewController: UIViewController {
-   
-   @IBOutlet weak var valueLabel: UILabel!
-   
-   @IBOutlet weak var valueField: UITextField!
-   
-   let disposeBag = DisposeBag()
-   
-   override func viewDidLoad() {
-      super.viewDidLoad()
-      
-      valueLabel.text = ""
-      valueField.becomeFirstResponder()
-      
-      
-      
-   }
-   
-   override func viewWillDisappear(_ animated: Bool) {
-      super.viewWillDisappear(animated)
-      
-      valueField.resignFirstResponder()
-   }
+    
+    @IBOutlet weak var valueLabel: UILabel!
+    
+    @IBOutlet weak var valueField: UITextField!
+    
+    let disposeBag = DisposeBag()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        valueLabel.text = ""
+        valueField.becomeFirstResponder()
+        
+        
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        valueField.resignFirstResponder()
+    }
 }

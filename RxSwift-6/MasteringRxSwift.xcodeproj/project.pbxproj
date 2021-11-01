@@ -14,6 +14,9 @@
 		AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA26A8122727144A00C35F53 /* MasteringRxSwift.xcdatamodeld */; };
 		AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8152727144B00C35F53 /* Assets.xcassets */; };
 		AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26A8172727144B00C35F53 /* LaunchScreen.storyboard */; };
+		AA83597227303B0D00F5BFFB /* Binding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA83596F27303B0D00F5BFFB /* Binding.storyboard */; };
+		AA83597327303B0D00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */; };
+		AA83597427303B0D00F5BFFB /* BindingRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */; };
 		AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA9246A272DBBFA0076CB28 /* Hello.storyboard */; };
 		AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246D272DC0630076CB28 /* HelloCocoaTouchViewController.swift */; };
 		AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9246F272DC07F0076CB28 /* HelloRxCocoaViewController.swift */; };
@@ -58,6 +61,9 @@
 		AA7C9F23272AFDD200EBB9F2 /* timeout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = timeout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F24272AFDE300EBB9F2 /* delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AA7C9F25272B012800EBB9F2 /* delaySubscription.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = delaySubscription.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		AA83596F27303B0D00F5BFFB /* Binding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Binding.storyboard; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/Binding.storyboard"; sourceTree = "<group>"; };
+		AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingCocoaTouchViewController.swift; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/BindingCocoaTouchViewController.swift"; sourceTree = "<group>"; };
+		AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingRxCocoaViewController.swift; path = "../../../../RxSwift-5/main/MasteringRxSwift/RxCocoaBasics/Binding/BindingRxCocoaViewController.swift"; sourceTree = "<group>"; };
 		AAA9245C272D182A0076CB28 /* overveiw.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = overveiw.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245D272D24AE0076CB28 /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245E272D357E0076CB28 /* publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -242,6 +248,16 @@
 			path = TimeBasedOperators;
 			sourceTree = "<group>";
 		};
+		AA83596E27303AE900F5BFFB /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				AA83596F27303B0D00F5BFFB /* Binding.storyboard */,
+				AA83597027303B0D00F5BFFB /* BindingCocoaTouchViewController.swift */,
+				AA83597127303B0D00F5BFFB /* BindingRxCocoaViewController.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
 		AAA9245B272D134B0076CB28 /* SharingSubscription */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA9246C272DBD0A0076CB28 /* Hello */,
+				AA83596E27303AE900F5BFFB /* Binding */,
 			);
 			path = RxCocoaBasics;
 			sourceTree = "<group>";
@@ -431,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */,
+				AA83597227303B0D00F5BFFB /* Binding.storyboard in Resources */,
 				AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */,
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
 				AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */,
@@ -488,9 +506,11 @@
 			files = (
 				AA26A80A2727144A00C35F53 /* AppDelegate.swift in Sources */,
 				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
+				AA83597327303B0D00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA26A80C2727144A00C35F53 /* SceneDelegate.swift in Sources */,
 				AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */,
+				AA83597427303B0D00F5BFFB /* BindingRxCocoaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
