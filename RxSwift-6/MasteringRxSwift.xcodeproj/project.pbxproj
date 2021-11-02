@@ -52,6 +52,13 @@
 		AAB3BA7527318316005B4AC9 /* CustomControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7027318316005B4AC9 /* CustomControlPropertyViewController.swift */; };
 		AAB3BA7627318316005B4AC9 /* CustomControlEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7127318316005B4AC9 /* CustomControlEventViewController.swift */; };
 		AAB3BA7727318316005B4AC9 /* CustomExtension.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BA7227318316005B4AC9 /* CustomExtension.storyboard */; };
+		AAB3BAA227318824005B4AC9 /* RxReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7A27318821005B4AC9 /* RxReachabilityViewController.swift */; };
+		AAB3BAA327318824005B4AC9 /* RxKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7C27318821005B4AC9 /* RxKeyboardViewController.swift */; };
+		AAB3BAA427318824005B4AC9 /* RxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA9A27318822005B4AC9 /* RxDataSourcesViewController.swift */; };
+		AAB3BAA527318824005B4AC9 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA9C27318822005B4AC9 /* ActionViewController.swift */; };
+		AAB3BAA627318824005B4AC9 /* NSObjectRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA9E27318822005B4AC9 /* NSObjectRxViewController.swift */; };
+		AAB3BAA727318824005B4AC9 /* RxGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAA027318822005B4AC9 /* RxGestureViewController.swift */; };
+		AAB3BAA827318824005B4AC9 /* CommunityProjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAA127318822005B4AC9 /* CommunityProjects.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +149,13 @@
 		AAB3BA7027318316005B4AC9 /* CustomControlPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControlPropertyViewController.swift; sourceTree = "<group>"; };
 		AAB3BA7127318316005B4AC9 /* CustomControlEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControlEventViewController.swift; sourceTree = "<group>"; };
 		AAB3BA7227318316005B4AC9 /* CustomExtension.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomExtension.storyboard; sourceTree = "<group>"; };
+		AAB3BA7A27318821005B4AC9 /* RxReachabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxReachabilityViewController.swift; sourceTree = "<group>"; };
+		AAB3BA7C27318821005B4AC9 /* RxKeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxKeyboardViewController.swift; sourceTree = "<group>"; };
+		AAB3BA9A27318822005B4AC9 /* RxDataSourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		AAB3BA9C27318822005B4AC9 /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		AAB3BA9E27318822005B4AC9 /* NSObjectRxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectRxViewController.swift; sourceTree = "<group>"; };
+		AAB3BAA027318822005B4AC9 /* RxGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxGestureViewController.swift; sourceTree = "<group>"; };
+		AAB3BAA127318822005B4AC9 /* CommunityProjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CommunityProjects.storyboard; sourceTree = "<group>"; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -242,6 +256,7 @@
 				AAA92469272DBBD30076CB28 /* RxCocoaBasics */,
 				AA83599127303E9E00F5BFFB /* RxCocoaCommonPatterns */,
 				AAB3BA6D27318316005B4AC9 /* CustomExtension */,
+				AAB3BA7827318821005B4AC9 /* CommunityProjects */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -517,6 +532,76 @@
 			path = CustomExtension;
 			sourceTree = "<group>";
 		};
+		AAB3BA7827318821005B4AC9 /* CommunityProjects */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA9D27318822005B4AC9 /* NSObject+Rx */,
+				AAB3BA7D27318821005B4AC9 /* RxSwiftExt */,
+				AAB3BA7927318821005B4AC9 /* RxReachability */,
+				AAB3BA7B27318821005B4AC9 /* RxKeyboard */,
+				AAB3BA9927318822005B4AC9 /* RxDataSources */,
+				AAB3BA9B27318822005B4AC9 /* Action */,
+				AAB3BA9F27318822005B4AC9 /* RxGesture */,
+				AAB3BAA127318822005B4AC9 /* CommunityProjects.storyboard */,
+			);
+			path = CommunityProjects;
+			sourceTree = "<group>";
+		};
+		AAB3BA7927318821005B4AC9 /* RxReachability */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA7A27318821005B4AC9 /* RxReachabilityViewController.swift */,
+			);
+			path = RxReachability;
+			sourceTree = "<group>";
+		};
+		AAB3BA7B27318821005B4AC9 /* RxKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA7C27318821005B4AC9 /* RxKeyboardViewController.swift */,
+			);
+			path = RxKeyboard;
+			sourceTree = "<group>";
+		};
+		AAB3BA7D27318821005B4AC9 /* RxSwiftExt */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwiftExt;
+			sourceTree = "<group>";
+		};
+		AAB3BA9927318822005B4AC9 /* RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA9A27318822005B4AC9 /* RxDataSourcesViewController.swift */,
+			);
+			path = RxDataSources;
+			sourceTree = "<group>";
+		};
+		AAB3BA9B27318822005B4AC9 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA9C27318822005B4AC9 /* ActionViewController.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		AAB3BA9D27318822005B4AC9 /* NSObject+Rx */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA9E27318822005B4AC9 /* NSObjectRxViewController.swift */,
+			);
+			path = "NSObject+Rx";
+			sourceTree = "<group>";
+		};
+		AAB3BA9F27318822005B4AC9 /* RxGesture */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAA027318822005B4AC9 /* RxGestureViewController.swift */,
+			);
+			path = RxGesture;
+			sourceTree = "<group>";
+		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -669,6 +754,7 @@
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
 				AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */,
 				AAB3BA6A273179EC005B4AC9 /* Gesture.storyboard in Resources */,
+				AAB3BAA827318824005B4AC9 /* CommunityProjects.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,19 +815,25 @@
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
 				AA83599B2730494100F5BFFB /* CocoaTouchViewViewController.swift in Sources */,
+				AAB3BAA227318824005B4AC9 /* RxReachabilityViewController.swift in Sources */,
 				AAB3BA5127316CB1005B4AC9 /* Product.swift in Sources */,
 				AAB3BA5927316FDC005B4AC9 /* CocoaTouchCollectionViewViewController.swift in Sources */,
+				AAB3BAA627318824005B4AC9 /* NSObjectRxViewController.swift in Sources */,
 				AAB3BA5827316FDC005B4AC9 /* ColorCollectionViewCell.swift in Sources */,
 				AAB3BA60273170F6005B4AC9 /* CocoaTouchAlertViewController.swift in Sources */,
 				AAB3BA6B273179EC005B4AC9 /* CocoaTouchGestureViewController.swift in Sources */,
 				AA83598C27303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */,
+				AAB3BAA727318824005B4AC9 /* RxGestureViewController.swift in Sources */,
 				AAB3BA64273177B3005B4AC9 /* RxCocoaNotificationCenterViewController.swift in Sources */,
 				AA83598627303CCC00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
 				AAB3BA4827316C67005B4AC9 /* RxCocoaTableViewViewController.swift in Sources */,
+				AAB3BAA527318824005B4AC9 /* ActionViewController.swift in Sources */,
 				AAB3BA4A27316C67005B4AC9 /* CocoaTouchTableViewViewController.swift in Sources */,
+				AAB3BAA327318824005B4AC9 /* RxKeyboardViewController.swift in Sources */,
 				AA83599D2730494E00F5BFFB /* RxCocoaViewViewController.swift in Sources */,
 				AAB3BA7427318316005B4AC9 /* CustomBinderViewController.swift in Sources */,
 				AAB3BA4927316C67005B4AC9 /* ProductTableViewCell.swift in Sources */,
+				AAB3BAA427318824005B4AC9 /* RxDataSourcesViewController.swift in Sources */,
 				AAB3BA5E273170F6005B4AC9 /* RxCocoaAlertViewController.swift in Sources */,
 				AAB3BA65273177B3005B4AC9 /* CocoaTouchNotificationCenterViewController.swift in Sources */,
 				AA83598F27303D0600F5BFFB /* DriverViewController.swift in Sources */,

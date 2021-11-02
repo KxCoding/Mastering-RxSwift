@@ -266,6 +266,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="POl-u1-BSg" kind="show" id="lTh-2n-zRO"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -428,7 +431,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F5A-Qk-Hnx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1640" y="250"/>
+            <point key="canvasLocation" x="1609" y="210"/>
+        </scene>
+        <!--CommunityProjects-->
+        <scene sceneID="SQN-Ho-9zY">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CommunityProjects" id="POl-u1-BSg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="8hS-y8-BW2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgf-ff-oNF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1619" y="305"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BJm-Mo-h7D">
