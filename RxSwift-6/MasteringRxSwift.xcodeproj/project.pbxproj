@@ -67,6 +67,49 @@
 		AAB3BABA27318A10005B4AC9 /* RxCocoaURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB127318A10005B4AC9 /* RxCocoaURLSessionViewController.swift */; };
 		AAB3BABB27318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB227318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift */; };
 		AAB3BABC27318A10005B4AC9 /* NetworkCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB427318A10005B4AC9 /* NetworkCommon.swift */; };
+		AAB3BABF27318ECB005B4AC9 /* ActivityIndicatorView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BABE27318ECB005B4AC9 /* ActivityIndicatorView.storyboard */; };
+		AAB3BAC227319153005B4AC9 /* Button.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAC127319153005B4AC9 /* Button.storyboard */; };
+		AAB3BAC5273191BF005B4AC9 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAC4273191BF005B4AC9 /* DatePicker.storyboard */; };
+		AAB3BAC827319242005B4AC9 /* ImageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAC727319242005B4AC9 /* ImageView.storyboard */; };
+		AAB3BACE27319561005B4AC9 /* PageControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BACD27319561005B4AC9 /* PageControl.storyboard */; };
+		AAB3BAD12731958E005B4AC9 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAD02731958E005B4AC9 /* PickerView.storyboard */; };
+		AAB3BAD4273195E8005B4AC9 /* ProgressView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAD3273195E8005B4AC9 /* ProgressView.storyboard */; };
+		AAB3BAD72731964E005B4AC9 /* SearchBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAD62731964E005B4AC9 /* SearchBar.storyboard */; };
+		AAB3BADA273197A7005B4AC9 /* SegmentedControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAD9273197A7005B4AC9 /* SegmentedControl.storyboard */; };
+		AAB3BADD273197DA005B4AC9 /* Slider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BADC273197DA005B4AC9 /* Slider.storyboard */; };
+		AAB3BAE027319814005B4AC9 /* Stepper.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BADF27319814005B4AC9 /* Stepper.storyboard */; };
+		AAB3BAE327319831005B4AC9 /* Switch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAE227319831005B4AC9 /* Switch.storyboard */; };
+		AAB3BAE6273198B7005B4AC9 /* Text.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAE5273198B7005B4AC9 /* Text.storyboard */; };
+		AAB3BAE927319933005B4AC9 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAE827319933005B4AC9 /* WebView.storyboard */; };
+		AAB3BAEB2731AFFE005B4AC9 /* CocoaTouchButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAEA2731AFFE005B4AC9 /* CocoaTouchButtonViewController.swift */; };
+		AAB3BAED2731B00A005B4AC9 /* RxCocoaButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAEC2731B00A005B4AC9 /* RxCocoaButtonViewController.swift */; };
+		AAB3BAEF2731B072005B4AC9 /* CocoaTouchTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAEE2731B072005B4AC9 /* CocoaTouchTextViewController.swift */; };
+		AAB3BAF12731B0DA005B4AC9 /* RxCocoaTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAF02731B0DA005B4AC9 /* RxCocoaTextViewController.swift */; };
+		AAB3BAF32731B15D005B4AC9 /* CocoaTouchImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAF22731B15D005B4AC9 /* CocoaTouchImageViewViewController.swift */; };
+		AAB3BAF52731B1B7005B4AC9 /* RxCocoaImageViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAF42731B1B7005B4AC9 /* RxCocoaImageViewViewController.swift */; };
+		AAB3BAF72731B245005B4AC9 /* CocoaTouchSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAF62731B245005B4AC9 /* CocoaTouchSwitchViewController.swift */; };
+		AAB3BAF92731B3BD005B4AC9 /* RxCocoaSwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAF82731B3BD005B4AC9 /* RxCocoaSwitchViewController.swift */; };
+		AAB3BAFB2731B4D7005B4AC9 /* CocoaTouchStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAFA2731B4D7005B4AC9 /* CocoaTouchStepperViewController.swift */; };
+		AAB3BAFD2731B50E005B4AC9 /* RxCocoaStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAFC2731B50E005B4AC9 /* RxCocoaStepperViewController.swift */; };
+		AAB3BAFF2731B55C005B4AC9 /* CocoaTouchSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAFE2731B55C005B4AC9 /* CocoaTouchSliderViewController.swift */; };
+		AAB3BB012731B5B0005B4AC9 /* RxCocoaSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB002731B5B0005B4AC9 /* RxCocoaSliderViewController.swift */; };
+		AAB3BB032731B66A005B4AC9 /* CocoaTouchSegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB022731B66A005B4AC9 /* CocoaTouchSegmentedControlViewController.swift */; };
+		AAB3BB052731B6BC005B4AC9 /* RxCocoaSegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB042731B6BC005B4AC9 /* RxCocoaSegmentedControlViewController.swift */; };
+		AAB3BB072731B6FB005B4AC9 /* CocoaTouchSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB062731B6FB005B4AC9 /* CocoaTouchSearchBarViewController.swift */; };
+		AAB3BB092731B74B005B4AC9 /* RxCocoaSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB082731B74B005B4AC9 /* RxCocoaSearchBarViewController.swift */; };
+		AAB3BB0B2731B7BE005B4AC9 /* CocoaTouchProgressViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB0A2731B7BE005B4AC9 /* CocoaTouchProgressViewViewController.swift */; };
+		AAB3BB0D2731B84E005B4AC9 /* RxCocoaProgressViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB0C2731B84E005B4AC9 /* RxCocoaProgressViewViewController.swift */; };
+		AAB3BB0F2731B97C005B4AC9 /* CocoaTouchPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB0E2731B97C005B4AC9 /* CocoaTouchPickerViewViewController.swift */; };
+		AAB3BB112731B9F1005B4AC9 /* RxCocoaPickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB102731B9F1005B4AC9 /* RxCocoaPickerViewViewController.swift */; };
+		AAB3BB132731BA52005B4AC9 /* CocoaTouchPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB122731BA52005B4AC9 /* CocoaTouchPageControlViewController.swift */; };
+		AAB3BB152731BA95005B4AC9 /* RxCocoaPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB142731BA95005B4AC9 /* RxCocoaPageControlViewController.swift */; };
+		AAB3BB172731BC11005B4AC9 /* CocoaTouchDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB162731BC11005B4AC9 /* CocoaTouchDatePickerViewController.swift */; };
+		AAB3BB192731BC44005B4AC9 /* RxCocoaDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB182731BC44005B4AC9 /* RxCocoaDatePickerViewController.swift */; };
+		AAB3BB1B2731BC8B005B4AC9 /* CocoaTouchActivityIndicatorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB1A2731BC8B005B4AC9 /* CocoaTouchActivityIndicatorViewViewController.swift */; };
+		AAB3BB1D2731BCD2005B4AC9 /* RxCocoaActivityIndicatorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB1C2731BCD2005B4AC9 /* RxCocoaActivityIndicatorViewViewController.swift */; };
+		AAB3BB1F2731BD26005B4AC9 /* CocoaTouchWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB1E2731BD26005B4AC9 /* CocoaTouchWebViewViewController.swift */; };
+		AAB3BB212731BD6D005B4AC9 /* RxCocoaWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BB202731BD6D005B4AC9 /* RxCocoaWebViewViewController.swift */; };
+		AAB3BB232731C2CB005B4AC9 /* RxCocoaCommonPatterns.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BB222731C2CB005B4AC9 /* RxCocoaCommonPatterns.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +215,49 @@
 		AAB3BAB127318A10005B4AC9 /* RxCocoaURLSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCocoaURLSessionViewController.swift; sourceTree = "<group>"; };
 		AAB3BAB227318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaTouchURLSessionViewController.swift; sourceTree = "<group>"; };
 		AAB3BAB427318A10005B4AC9 /* NetworkCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCommon.swift; sourceTree = "<group>"; };
+		AAB3BABE27318ECB005B4AC9 /* ActivityIndicatorView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivityIndicatorView.storyboard; sourceTree = "<group>"; };
+		AAB3BAC127319153005B4AC9 /* Button.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Button.storyboard; sourceTree = "<group>"; };
+		AAB3BAC4273191BF005B4AC9 /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
+		AAB3BAC727319242005B4AC9 /* ImageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageView.storyboard; sourceTree = "<group>"; };
+		AAB3BACD27319561005B4AC9 /* PageControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageControl.storyboard; sourceTree = "<group>"; };
+		AAB3BAD02731958E005B4AC9 /* PickerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerView.storyboard; sourceTree = "<group>"; };
+		AAB3BAD3273195E8005B4AC9 /* ProgressView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgressView.storyboard; sourceTree = "<group>"; };
+		AAB3BAD62731964E005B4AC9 /* SearchBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchBar.storyboard; sourceTree = "<group>"; };
+		AAB3BAD9273197A7005B4AC9 /* SegmentedControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SegmentedControl.storyboard; sourceTree = "<group>"; };
+		AAB3BADC273197DA005B4AC9 /* Slider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Slider.storyboard; sourceTree = "<group>"; };
+		AAB3BADF27319814005B4AC9 /* Stepper.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stepper.storyboard; sourceTree = "<group>"; };
+		AAB3BAE227319831005B4AC9 /* Switch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Switch.storyboard; sourceTree = "<group>"; };
+		AAB3BAE5273198B7005B4AC9 /* Text.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Text.storyboard; sourceTree = "<group>"; };
+		AAB3BAE827319933005B4AC9 /* WebView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		AAB3BAEA2731AFFE005B4AC9 /* CocoaTouchButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchButtonViewController.swift; sourceTree = "<group>"; };
+		AAB3BAEC2731B00A005B4AC9 /* RxCocoaButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaButtonViewController.swift; sourceTree = "<group>"; };
+		AAB3BAEE2731B072005B4AC9 /* CocoaTouchTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchTextViewController.swift; sourceTree = "<group>"; };
+		AAB3BAF02731B0DA005B4AC9 /* RxCocoaTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaTextViewController.swift; sourceTree = "<group>"; };
+		AAB3BAF22731B15D005B4AC9 /* CocoaTouchImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchImageViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BAF42731B1B7005B4AC9 /* RxCocoaImageViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaImageViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BAF62731B245005B4AC9 /* CocoaTouchSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchSwitchViewController.swift; sourceTree = "<group>"; };
+		AAB3BAF82731B3BD005B4AC9 /* RxCocoaSwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaSwitchViewController.swift; sourceTree = "<group>"; };
+		AAB3BAFA2731B4D7005B4AC9 /* CocoaTouchStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchStepperViewController.swift; sourceTree = "<group>"; };
+		AAB3BAFC2731B50E005B4AC9 /* RxCocoaStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaStepperViewController.swift; sourceTree = "<group>"; };
+		AAB3BAFE2731B55C005B4AC9 /* CocoaTouchSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchSliderViewController.swift; sourceTree = "<group>"; };
+		AAB3BB002731B5B0005B4AC9 /* RxCocoaSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaSliderViewController.swift; sourceTree = "<group>"; };
+		AAB3BB022731B66A005B4AC9 /* CocoaTouchSegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchSegmentedControlViewController.swift; sourceTree = "<group>"; };
+		AAB3BB042731B6BC005B4AC9 /* RxCocoaSegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaSegmentedControlViewController.swift; sourceTree = "<group>"; };
+		AAB3BB062731B6FB005B4AC9 /* CocoaTouchSearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchSearchBarViewController.swift; sourceTree = "<group>"; };
+		AAB3BB082731B74B005B4AC9 /* RxCocoaSearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaSearchBarViewController.swift; sourceTree = "<group>"; };
+		AAB3BB0A2731B7BE005B4AC9 /* CocoaTouchProgressViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchProgressViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB0C2731B84E005B4AC9 /* RxCocoaProgressViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaProgressViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB0E2731B97C005B4AC9 /* CocoaTouchPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchPickerViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB102731B9F1005B4AC9 /* RxCocoaPickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaPickerViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB122731BA52005B4AC9 /* CocoaTouchPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchPageControlViewController.swift; sourceTree = "<group>"; };
+		AAB3BB142731BA95005B4AC9 /* RxCocoaPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaPageControlViewController.swift; sourceTree = "<group>"; };
+		AAB3BB162731BC11005B4AC9 /* CocoaTouchDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchDatePickerViewController.swift; sourceTree = "<group>"; };
+		AAB3BB182731BC44005B4AC9 /* RxCocoaDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaDatePickerViewController.swift; sourceTree = "<group>"; };
+		AAB3BB1A2731BC8B005B4AC9 /* CocoaTouchActivityIndicatorViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchActivityIndicatorViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB1C2731BCD2005B4AC9 /* RxCocoaActivityIndicatorViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaActivityIndicatorViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB1E2731BD26005B4AC9 /* CocoaTouchWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchWebViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB202731BD6D005B4AC9 /* RxCocoaWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaWebViewViewController.swift; sourceTree = "<group>"; };
+		AAB3BB222731C2CB005B4AC9 /* RxCocoaCommonPatterns.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxCocoaCommonPatterns.storyboard; sourceTree = "<group>"; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -380,11 +466,26 @@
 			isa = PBXGroup;
 			children = (
 				AA83599727303FD800F5BFFB /* View */,
+				AAB3BAC027319141005B4AC9 /* Button */,
+				AAB3BAE42731987D005B4AC9 /* Text */,
+				AAB3BAC627319219005B4AC9 /* ImageView */,
 				AA83599627303FA400F5BFFB /* TableView */,
 				AA83599527303F9B00F5BFFB /* CollectionView */,
+				AAB3BAE127319827005B4AC9 /* Switch */,
+				AAB3BADE27319806005B4AC9 /* Stepper */,
+				AAB3BADB273197BD005B4AC9 /* Slider */,
+				AAB3BAD827319799005B4AC9 /* SegmentedControl */,
+				AAB3BAD527319634005B4AC9 /* SearchBar */,
+				AAB3BAD2273195DB005B4AC9 /* ProgressView */,
+				AAB3BACF2731957F005B4AC9 /* PickerView */,
+				AAB3BACC27319547005B4AC9 /* PageControl */,
+				AAB3BAC3273191AC005B4AC9 /* DatePicker */,
+				AAB3BABD27318EAF005B4AC9 /* ActivityIndicatorView */,
 				AA83599427303F8F00F5BFFB /* AlertController */,
 				AA83599327303F8800F5BFFB /* NotificationCenter */,
 				AA83599227303F7F00F5BFFB /* Gesture */,
+				AAB3BAE727319923005B4AC9 /* WebView */,
+				AAB3BB222731C2CB005B4AC9 /* RxCocoaCommonPatterns.storyboard */,
 			);
 			path = RxCocoaCommonPatterns;
 			sourceTree = "<group>";
@@ -658,6 +759,146 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		AAB3BABD27318EAF005B4AC9 /* ActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BABE27318ECB005B4AC9 /* ActivityIndicatorView.storyboard */,
+				AAB3BB1C2731BCD2005B4AC9 /* RxCocoaActivityIndicatorViewViewController.swift */,
+				AAB3BB1A2731BC8B005B4AC9 /* CocoaTouchActivityIndicatorViewViewController.swift */,
+			);
+			path = ActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		AAB3BAC027319141005B4AC9 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAC127319153005B4AC9 /* Button.storyboard */,
+				AAB3BAEA2731AFFE005B4AC9 /* CocoaTouchButtonViewController.swift */,
+				AAB3BAEC2731B00A005B4AC9 /* RxCocoaButtonViewController.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		AAB3BAC3273191AC005B4AC9 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAC4273191BF005B4AC9 /* DatePicker.storyboard */,
+				AAB3BB162731BC11005B4AC9 /* CocoaTouchDatePickerViewController.swift */,
+				AAB3BB182731BC44005B4AC9 /* RxCocoaDatePickerViewController.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		AAB3BAC627319219005B4AC9 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAC727319242005B4AC9 /* ImageView.storyboard */,
+				AAB3BAF22731B15D005B4AC9 /* CocoaTouchImageViewViewController.swift */,
+				AAB3BAF42731B1B7005B4AC9 /* RxCocoaImageViewViewController.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		AAB3BACC27319547005B4AC9 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BACD27319561005B4AC9 /* PageControl.storyboard */,
+				AAB3BB122731BA52005B4AC9 /* CocoaTouchPageControlViewController.swift */,
+				AAB3BB142731BA95005B4AC9 /* RxCocoaPageControlViewController.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		AAB3BACF2731957F005B4AC9 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAD02731958E005B4AC9 /* PickerView.storyboard */,
+				AAB3BB0E2731B97C005B4AC9 /* CocoaTouchPickerViewViewController.swift */,
+				AAB3BB102731B9F1005B4AC9 /* RxCocoaPickerViewViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		AAB3BAD2273195DB005B4AC9 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAD3273195E8005B4AC9 /* ProgressView.storyboard */,
+				AAB3BB0A2731B7BE005B4AC9 /* CocoaTouchProgressViewViewController.swift */,
+				AAB3BB0C2731B84E005B4AC9 /* RxCocoaProgressViewViewController.swift */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		AAB3BAD527319634005B4AC9 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAD62731964E005B4AC9 /* SearchBar.storyboard */,
+				AAB3BB062731B6FB005B4AC9 /* CocoaTouchSearchBarViewController.swift */,
+				AAB3BB082731B74B005B4AC9 /* RxCocoaSearchBarViewController.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		AAB3BAD827319799005B4AC9 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAD9273197A7005B4AC9 /* SegmentedControl.storyboard */,
+				AAB3BB022731B66A005B4AC9 /* CocoaTouchSegmentedControlViewController.swift */,
+				AAB3BB042731B6BC005B4AC9 /* RxCocoaSegmentedControlViewController.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		AAB3BADB273197BD005B4AC9 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BADC273197DA005B4AC9 /* Slider.storyboard */,
+				AAB3BAFE2731B55C005B4AC9 /* CocoaTouchSliderViewController.swift */,
+				AAB3BB002731B5B0005B4AC9 /* RxCocoaSliderViewController.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		AAB3BADE27319806005B4AC9 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BADF27319814005B4AC9 /* Stepper.storyboard */,
+				AAB3BAFA2731B4D7005B4AC9 /* CocoaTouchStepperViewController.swift */,
+				AAB3BAFC2731B50E005B4AC9 /* RxCocoaStepperViewController.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		AAB3BAE127319827005B4AC9 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAE227319831005B4AC9 /* Switch.storyboard */,
+				AAB3BAF62731B245005B4AC9 /* CocoaTouchSwitchViewController.swift */,
+				AAB3BAF82731B3BD005B4AC9 /* RxCocoaSwitchViewController.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		AAB3BAE42731987D005B4AC9 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAE5273198B7005B4AC9 /* Text.storyboard */,
+				AAB3BAEE2731B072005B4AC9 /* CocoaTouchTextViewController.swift */,
+				AAB3BAF02731B0DA005B4AC9 /* RxCocoaTextViewController.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		AAB3BAE727319923005B4AC9 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAE827319933005B4AC9 /* WebView.storyboard */,
+				AAB3BB1E2731BD26005B4AC9 /* CocoaTouchWebViewViewController.swift */,
+				AAB3BB202731BD6D005B4AC9 /* RxCocoaWebViewViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -798,20 +1039,35 @@
 			files = (
 				AAB3BA66273177B3005B4AC9 /* NotificationCenter.storyboard in Resources */,
 				AAB3BA7727318316005B4AC9 /* CustomExtension.storyboard in Resources */,
+				AAB3BAE327319831005B4AC9 /* Switch.storyboard in Resources */,
+				AAB3BAE6273198B7005B4AC9 /* Text.storyboard in Resources */,
 				AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */,
 				AA83599927303FFF00F5BFFB /* View.storyboard in Resources */,
+				AAB3BAC5273191BF005B4AC9 /* DatePicker.storyboard in Resources */,
 				AA83598427303CCC00F5BFFB /* Binding.storyboard in Resources */,
+				AAB3BAE927319933005B4AC9 /* WebView.storyboard in Resources */,
+				AAB3BADD273197DA005B4AC9 /* Slider.storyboard in Resources */,
 				AAB3BA4B27316C67005B4AC9 /* TableView.storyboard in Resources */,
 				AA83598A27303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard in Resources */,
 				AAB3BAB527318A10005B4AC9 /* RxAlamofire.storyboard in Resources */,
 				AA83599027303D0600F5BFFB /* Driver.storyboard in Resources */,
 				AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */,
 				AAB3BAB927318A10005B4AC9 /* URLSession.storyboard in Resources */,
+				AAB3BAD12731958E005B4AC9 /* PickerView.storyboard in Resources */,
+				AAB3BAD4273195E8005B4AC9 /* ProgressView.storyboard in Resources */,
+				AAB3BAC827319242005B4AC9 /* ImageView.storyboard in Resources */,
+				AAB3BB232731C2CB005B4AC9 /* RxCocoaCommonPatterns.storyboard in Resources */,
+				AAB3BAE027319814005B4AC9 /* Stepper.storyboard in Resources */,
+				AAB3BAC227319153005B4AC9 /* Button.storyboard in Resources */,
 				AAB3BA5F273170F6005B4AC9 /* AlertController.storyboard in Resources */,
 				AAB3BA5727316FDC005B4AC9 /* CollectionView.storyboard in Resources */,
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
+				AAB3BAD72731964E005B4AC9 /* SearchBar.storyboard in Resources */,
 				AAA9246B272DBBFA0076CB28 /* Hello.storyboard in Resources */,
+				AAB3BADA273197A7005B4AC9 /* SegmentedControl.storyboard in Resources */,
+				AAB3BACE27319561005B4AC9 /* PageControl.storyboard in Resources */,
 				AAB3BA6A273179EC005B4AC9 /* Gesture.storyboard in Resources */,
+				AAB3BABF27318ECB005B4AC9 /* ActivityIndicatorView.storyboard in Resources */,
 				AAB3BAA827318824005B4AC9 /* CommunityProjects.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -865,27 +1121,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB3BB092731B74B005B4AC9 /* RxCocoaSearchBarViewController.swift in Sources */,
 				AA26A80A2727144A00C35F53 /* AppDelegate.swift in Sources */,
 				AAB3BA5A27316FDC005B4AC9 /* RxCocoaCollectionViewViewController.swift in Sources */,
 				AAB3BA7327318316005B4AC9 /* DelegateProxyViewController.swift in Sources */,
+				AAB3BB192731BC44005B4AC9 /* RxCocoaDatePickerViewController.swift in Sources */,
 				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
+				AAB3BAEB2731AFFE005B4AC9 /* CocoaTouchButtonViewController.swift in Sources */,
 				AAB3BAB727318A10005B4AC9 /* RxAlamofireProgressViewController.swift in Sources */,
+				AAB3BAF72731B245005B4AC9 /* CocoaTouchSwitchViewController.swift in Sources */,
 				AAB3BABA27318A10005B4AC9 /* RxCocoaURLSessionViewController.swift in Sources */,
+				AAB3BB072731B6FB005B4AC9 /* CocoaTouchSearchBarViewController.swift in Sources */,
 				AAB3BA7627318316005B4AC9 /* CustomControlEventViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
+				AAB3BB152731BA95005B4AC9 /* RxCocoaPageControlViewController.swift in Sources */,
 				AA83599B2730494100F5BFFB /* CocoaTouchViewViewController.swift in Sources */,
+				AAB3BAF52731B1B7005B4AC9 /* RxCocoaImageViewViewController.swift in Sources */,
 				AAB3BAA227318824005B4AC9 /* RxReachabilityViewController.swift in Sources */,
+				AAB3BAF92731B3BD005B4AC9 /* RxCocoaSwitchViewController.swift in Sources */,
 				AAB3BA5127316CB1005B4AC9 /* Product.swift in Sources */,
 				AAB3BA5927316FDC005B4AC9 /* CocoaTouchCollectionViewViewController.swift in Sources */,
 				AAB3BAA627318824005B4AC9 /* NSObjectRxViewController.swift in Sources */,
 				AAB3BA5827316FDC005B4AC9 /* ColorCollectionViewCell.swift in Sources */,
 				AAB3BA60273170F6005B4AC9 /* CocoaTouchAlertViewController.swift in Sources */,
+				AAB3BAFB2731B4D7005B4AC9 /* CocoaTouchStepperViewController.swift in Sources */,
+				AAB3BB012731B5B0005B4AC9 /* RxCocoaSliderViewController.swift in Sources */,
 				AAB3BA6B273179EC005B4AC9 /* CocoaTouchGestureViewController.swift in Sources */,
+				AAB3BB032731B66A005B4AC9 /* CocoaTouchSegmentedControlViewController.swift in Sources */,
 				AA83598C27303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */,
 				AAB3BABB27318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift in Sources */,
 				AAB3BABC27318A10005B4AC9 /* NetworkCommon.swift in Sources */,
+				AAB3BB0F2731B97C005B4AC9 /* CocoaTouchPickerViewViewController.swift in Sources */,
 				AAB3BAA727318824005B4AC9 /* RxGestureViewController.swift in Sources */,
+				AAB3BAF32731B15D005B4AC9 /* CocoaTouchImageViewViewController.swift in Sources */,
 				AAB3BA64273177B3005B4AC9 /* RxCocoaNotificationCenterViewController.swift in Sources */,
 				AA83598627303CCC00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
 				AAB3BA4827316C67005B4AC9 /* RxCocoaTableViewViewController.swift in Sources */,
@@ -893,9 +1162,15 @@
 				AAB3BA4A27316C67005B4AC9 /* CocoaTouchTableViewViewController.swift in Sources */,
 				AAB3BAA327318824005B4AC9 /* RxKeyboardViewController.swift in Sources */,
 				AA83599D2730494E00F5BFFB /* RxCocoaViewViewController.swift in Sources */,
+				AAB3BB1F2731BD26005B4AC9 /* CocoaTouchWebViewViewController.swift in Sources */,
 				AAB3BAB827318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift in Sources */,
+				AAB3BAED2731B00A005B4AC9 /* RxCocoaButtonViewController.swift in Sources */,
+				AAB3BAFF2731B55C005B4AC9 /* CocoaTouchSliderViewController.swift in Sources */,
 				AAB3BA7427318316005B4AC9 /* CustomBinderViewController.swift in Sources */,
 				AAB3BA4927316C67005B4AC9 /* ProductTableViewCell.swift in Sources */,
+				AAB3BB1B2731BC8B005B4AC9 /* CocoaTouchActivityIndicatorViewViewController.swift in Sources */,
+				AAB3BB052731B6BC005B4AC9 /* RxCocoaSegmentedControlViewController.swift in Sources */,
+				AAB3BAFD2731B50E005B4AC9 /* RxCocoaStepperViewController.swift in Sources */,
 				AAB3BAA427318824005B4AC9 /* RxDataSourcesViewController.swift in Sources */,
 				AAB3BA5E273170F6005B4AC9 /* RxCocoaAlertViewController.swift in Sources */,
 				AAB3BA65273177B3005B4AC9 /* CocoaTouchNotificationCenterViewController.swift in Sources */,
@@ -905,8 +1180,17 @@
 				AAB3BA6C273179EC005B4AC9 /* RxCocoaGestureViewController.swift in Sources */,
 				AAB3BA7527318316005B4AC9 /* CustomControlPropertyViewController.swift in Sources */,
 				AA83598527303CCC00F5BFFB /* BindingRxCocoaViewController.swift in Sources */,
+				AAB3BB132731BA52005B4AC9 /* CocoaTouchPageControlViewController.swift in Sources */,
 				AA26A80C2727144A00C35F53 /* SceneDelegate.swift in Sources */,
+				AAB3BAEF2731B072005B4AC9 /* CocoaTouchTextViewController.swift in Sources */,
+				AAB3BB212731BD6D005B4AC9 /* RxCocoaWebViewViewController.swift in Sources */,
+				AAB3BB0D2731B84E005B4AC9 /* RxCocoaProgressViewViewController.swift in Sources */,
+				AAB3BB1D2731BCD2005B4AC9 /* RxCocoaActivityIndicatorViewViewController.swift in Sources */,
 				AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */,
+				AAB3BB0B2731B7BE005B4AC9 /* CocoaTouchProgressViewViewController.swift in Sources */,
+				AAB3BB172731BC11005B4AC9 /* CocoaTouchDatePickerViewController.swift in Sources */,
+				AAB3BAF12731B0DA005B4AC9 /* RxCocoaTextViewController.swift in Sources */,
+				AAB3BB112731B9F1005B4AC9 /* RxCocoaPickerViewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
