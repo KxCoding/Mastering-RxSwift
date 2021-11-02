@@ -59,6 +59,14 @@
 		AAB3BAA627318824005B4AC9 /* NSObjectRxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA9E27318822005B4AC9 /* NSObjectRxViewController.swift */; };
 		AAB3BAA727318824005B4AC9 /* RxGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAA027318822005B4AC9 /* RxGestureViewController.swift */; };
 		AAB3BAA827318824005B4AC9 /* CommunityProjects.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAA127318822005B4AC9 /* CommunityProjects.storyboard */; };
+		AAB3BAB527318A10005B4AC9 /* RxAlamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAAB27318A10005B4AC9 /* RxAlamofire.storyboard */; };
+		AAB3BAB627318A10005B4AC9 /* RxAlamofireValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAAC27318A10005B4AC9 /* RxAlamofireValidationViewController.swift */; };
+		AAB3BAB727318A10005B4AC9 /* RxAlamofireProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAAD27318A10005B4AC9 /* RxAlamofireProgressViewController.swift */; };
+		AAB3BAB827318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAAE27318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift */; };
+		AAB3BAB927318A10005B4AC9 /* URLSession.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BAB027318A10005B4AC9 /* URLSession.storyboard */; };
+		AAB3BABA27318A10005B4AC9 /* RxCocoaURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB127318A10005B4AC9 /* RxCocoaURLSessionViewController.swift */; };
+		AAB3BABB27318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB227318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift */; };
+		AAB3BABC27318A10005B4AC9 /* NetworkCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BAB427318A10005B4AC9 /* NetworkCommon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +164,14 @@
 		AAB3BA9E27318822005B4AC9 /* NSObjectRxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectRxViewController.swift; sourceTree = "<group>"; };
 		AAB3BAA027318822005B4AC9 /* RxGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxGestureViewController.swift; sourceTree = "<group>"; };
 		AAB3BAA127318822005B4AC9 /* CommunityProjects.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CommunityProjects.storyboard; sourceTree = "<group>"; };
+		AAB3BAAB27318A10005B4AC9 /* RxAlamofire.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RxAlamofire.storyboard; sourceTree = "<group>"; };
+		AAB3BAAC27318A10005B4AC9 /* RxAlamofireValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireValidationViewController.swift; sourceTree = "<group>"; };
+		AAB3BAAD27318A10005B4AC9 /* RxAlamofireProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireProgressViewController.swift; sourceTree = "<group>"; };
+		AAB3BAAE27318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireBasicPatternTableViewController.swift; sourceTree = "<group>"; };
+		AAB3BAB027318A10005B4AC9 /* URLSession.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = URLSession.storyboard; sourceTree = "<group>"; };
+		AAB3BAB127318A10005B4AC9 /* RxCocoaURLSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCocoaURLSessionViewController.swift; sourceTree = "<group>"; };
+		AAB3BAB227318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaTouchURLSessionViewController.swift; sourceTree = "<group>"; };
+		AAB3BAB427318A10005B4AC9 /* NetworkCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCommon.swift; sourceTree = "<group>"; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -257,6 +273,7 @@
 				AA83599127303E9E00F5BFFB /* RxCocoaCommonPatterns */,
 				AAB3BA6D27318316005B4AC9 /* CustomExtension */,
 				AAB3BA7827318821005B4AC9 /* CommunityProjects */,
+				AAB3BAA927318A10005B4AC9 /* Networking */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -602,6 +619,45 @@
 			path = RxGesture;
 			sourceTree = "<group>";
 		};
+		AAB3BAA927318A10005B4AC9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAB327318A10005B4AC9 /* Common */,
+				AAB3BAAF27318A10005B4AC9 /* URLSession */,
+				AAB3BAAA27318A10005B4AC9 /* RxAlamofire */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AAB3BAAA27318A10005B4AC9 /* RxAlamofire */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAAB27318A10005B4AC9 /* RxAlamofire.storyboard */,
+				AAB3BAAC27318A10005B4AC9 /* RxAlamofireValidationViewController.swift */,
+				AAB3BAAD27318A10005B4AC9 /* RxAlamofireProgressViewController.swift */,
+				AAB3BAAE27318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift */,
+			);
+			path = RxAlamofire;
+			sourceTree = "<group>";
+		};
+		AAB3BAAF27318A10005B4AC9 /* URLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAB027318A10005B4AC9 /* URLSession.storyboard */,
+				AAB3BAB227318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift */,
+				AAB3BAB127318A10005B4AC9 /* RxCocoaURLSessionViewController.swift */,
+			);
+			path = URLSession;
+			sourceTree = "<group>";
+		};
+		AAB3BAB327318A10005B4AC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BAB427318A10005B4AC9 /* NetworkCommon.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -747,8 +803,10 @@
 				AA83598427303CCC00F5BFFB /* Binding.storyboard in Resources */,
 				AAB3BA4B27316C67005B4AC9 /* TableView.storyboard in Resources */,
 				AA83598A27303CEA00F5BFFB /* ControlPropertyControlEvent.storyboard in Resources */,
+				AAB3BAB527318A10005B4AC9 /* RxAlamofire.storyboard in Resources */,
 				AA83599027303D0600F5BFFB /* Driver.storyboard in Resources */,
 				AA26A8162727144B00C35F53 /* Assets.xcassets in Resources */,
+				AAB3BAB927318A10005B4AC9 /* URLSession.storyboard in Resources */,
 				AAB3BA5F273170F6005B4AC9 /* AlertController.storyboard in Resources */,
 				AAB3BA5727316FDC005B4AC9 /* CollectionView.storyboard in Resources */,
 				AA26A8112727144A00C35F53 /* Main.storyboard in Resources */,
@@ -811,6 +869,8 @@
 				AAB3BA5A27316FDC005B4AC9 /* RxCocoaCollectionViewViewController.swift in Sources */,
 				AAB3BA7327318316005B4AC9 /* DelegateProxyViewController.swift in Sources */,
 				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
+				AAB3BAB727318A10005B4AC9 /* RxAlamofireProgressViewController.swift in Sources */,
+				AAB3BABA27318A10005B4AC9 /* RxCocoaURLSessionViewController.swift in Sources */,
 				AAB3BA7627318316005B4AC9 /* CustomControlEventViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
@@ -823,6 +883,8 @@
 				AAB3BA60273170F6005B4AC9 /* CocoaTouchAlertViewController.swift in Sources */,
 				AAB3BA6B273179EC005B4AC9 /* CocoaTouchGestureViewController.swift in Sources */,
 				AA83598C27303CEA00F5BFFB /* ControlPropertyControlEventRxCocoaViewController.swift in Sources */,
+				AAB3BABB27318A10005B4AC9 /* CocoaTouchURLSessionViewController.swift in Sources */,
+				AAB3BABC27318A10005B4AC9 /* NetworkCommon.swift in Sources */,
 				AAB3BAA727318824005B4AC9 /* RxGestureViewController.swift in Sources */,
 				AAB3BA64273177B3005B4AC9 /* RxCocoaNotificationCenterViewController.swift in Sources */,
 				AA83598627303CCC00F5BFFB /* BindingCocoaTouchViewController.swift in Sources */,
@@ -831,12 +893,14 @@
 				AAB3BA4A27316C67005B4AC9 /* CocoaTouchTableViewViewController.swift in Sources */,
 				AAB3BAA327318824005B4AC9 /* RxKeyboardViewController.swift in Sources */,
 				AA83599D2730494E00F5BFFB /* RxCocoaViewViewController.swift in Sources */,
+				AAB3BAB827318A10005B4AC9 /* RxAlamofireBasicPatternTableViewController.swift in Sources */,
 				AAB3BA7427318316005B4AC9 /* CustomBinderViewController.swift in Sources */,
 				AAB3BA4927316C67005B4AC9 /* ProductTableViewCell.swift in Sources */,
 				AAB3BAA427318824005B4AC9 /* RxDataSourcesViewController.swift in Sources */,
 				AAB3BA5E273170F6005B4AC9 /* RxCocoaAlertViewController.swift in Sources */,
 				AAB3BA65273177B3005B4AC9 /* CocoaTouchNotificationCenterViewController.swift in Sources */,
 				AA83598F27303D0600F5BFFB /* DriverViewController.swift in Sources */,
+				AAB3BAB627318A10005B4AC9 /* RxAlamofireValidationViewController.swift in Sources */,
 				AAB3BA5027316CB1005B4AC9 /* MaterialColor.swift in Sources */,
 				AAB3BA6C273179EC005B4AC9 /* RxCocoaGestureViewController.swift in Sources */,
 				AAB3BA7527318316005B4AC9 /* CustomControlPropertyViewController.swift in Sources */,
