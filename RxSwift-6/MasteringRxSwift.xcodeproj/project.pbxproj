@@ -47,6 +47,11 @@
 		AAB3BA6A273179EC005B4AC9 /* Gesture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BA67273179EB005B4AC9 /* Gesture.storyboard */; };
 		AAB3BA6B273179EC005B4AC9 /* CocoaTouchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA68273179EB005B4AC9 /* CocoaTouchGestureViewController.swift */; };
 		AAB3BA6C273179EC005B4AC9 /* RxCocoaGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA69273179EC005B4AC9 /* RxCocoaGestureViewController.swift */; };
+		AAB3BA7327318316005B4AC9 /* DelegateProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA6E27318316005B4AC9 /* DelegateProxyViewController.swift */; };
+		AAB3BA7427318316005B4AC9 /* CustomBinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA6F27318316005B4AC9 /* CustomBinderViewController.swift */; };
+		AAB3BA7527318316005B4AC9 /* CustomControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7027318316005B4AC9 /* CustomControlPropertyViewController.swift */; };
+		AAB3BA7627318316005B4AC9 /* CustomControlEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB3BA7127318316005B4AC9 /* CustomControlEventViewController.swift */; };
+		AAB3BA7727318316005B4AC9 /* CustomExtension.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB3BA7227318316005B4AC9 /* CustomExtension.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -132,6 +137,11 @@
 		AAB3BA67273179EB005B4AC9 /* Gesture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Gesture.storyboard; sourceTree = "<group>"; };
 		AAB3BA68273179EB005B4AC9 /* CocoaTouchGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaTouchGestureViewController.swift; sourceTree = "<group>"; };
 		AAB3BA69273179EC005B4AC9 /* RxCocoaGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCocoaGestureViewController.swift; sourceTree = "<group>"; };
+		AAB3BA6E27318316005B4AC9 /* DelegateProxyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateProxyViewController.swift; sourceTree = "<group>"; };
+		AAB3BA6F27318316005B4AC9 /* CustomBinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBinderViewController.swift; sourceTree = "<group>"; };
+		AAB3BA7027318316005B4AC9 /* CustomControlPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControlPropertyViewController.swift; sourceTree = "<group>"; };
+		AAB3BA7127318316005B4AC9 /* CustomControlEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomControlEventViewController.swift; sourceTree = "<group>"; };
+		AAB3BA7227318316005B4AC9 /* CustomExtension.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomExtension.storyboard; sourceTree = "<group>"; };
 		AABC4C6927299D4900DC90FA /* just.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = just.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6A27299F0700DC90FA /* of.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = of.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AABC4C6B27299F4F00DC90FA /* from.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = from.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -231,6 +241,7 @@
 				AAA92464272D7A050076CB28 /* ErrorHandling */,
 				AAA92469272DBBD30076CB28 /* RxCocoaBasics */,
 				AA83599127303E9E00F5BFFB /* RxCocoaCommonPatterns */,
+				AAB3BA6D27318316005B4AC9 /* CustomExtension */,
 				AA26A8092727144A00C35F53 /* AppDelegate.swift */,
 				AA26A80B2727144A00C35F53 /* SceneDelegate.swift */,
 				AA26A80F2727144A00C35F53 /* Main.storyboard */,
@@ -494,6 +505,18 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		AAB3BA6D27318316005B4AC9 /* CustomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AAB3BA6F27318316005B4AC9 /* CustomBinderViewController.swift */,
+				AAB3BA7027318316005B4AC9 /* CustomControlPropertyViewController.swift */,
+				AAB3BA7127318316005B4AC9 /* CustomControlEventViewController.swift */,
+				AAB3BA6E27318316005B4AC9 /* DelegateProxyViewController.swift */,
+				AAB3BA7227318316005B4AC9 /* CustomExtension.storyboard */,
+			);
+			path = CustomExtension;
+			sourceTree = "<group>";
+		};
 		AABC4C6727299D0900DC90FA /* Operators */ = {
 			isa = PBXGroup;
 			children = (
@@ -633,6 +656,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB3BA66273177B3005B4AC9 /* NotificationCenter.storyboard in Resources */,
+				AAB3BA7727318316005B4AC9 /* CustomExtension.storyboard in Resources */,
 				AA26A8192727144B00C35F53 /* LaunchScreen.storyboard in Resources */,
 				AA83599927303FFF00F5BFFB /* View.storyboard in Resources */,
 				AA83598427303CCC00F5BFFB /* Binding.storyboard in Resources */,
@@ -699,7 +723,9 @@
 			files = (
 				AA26A80A2727144A00C35F53 /* AppDelegate.swift in Sources */,
 				AAB3BA5A27316FDC005B4AC9 /* RxCocoaCollectionViewViewController.swift in Sources */,
+				AAB3BA7327318316005B4AC9 /* DelegateProxyViewController.swift in Sources */,
 				AAA9246E272DC0630076CB28 /* HelloCocoaTouchViewController.swift in Sources */,
+				AAB3BA7627318316005B4AC9 /* CustomControlEventViewController.swift in Sources */,
 				AA26A8142727144A00C35F53 /* MasteringRxSwift.xcdatamodeld in Sources */,
 				AA83598B27303CEA00F5BFFB /* ControlPropertyControlEventCocoaTouchViewController.swift in Sources */,
 				AA83599B2730494100F5BFFB /* CocoaTouchViewViewController.swift in Sources */,
@@ -714,12 +740,14 @@
 				AAB3BA4827316C67005B4AC9 /* RxCocoaTableViewViewController.swift in Sources */,
 				AAB3BA4A27316C67005B4AC9 /* CocoaTouchTableViewViewController.swift in Sources */,
 				AA83599D2730494E00F5BFFB /* RxCocoaViewViewController.swift in Sources */,
+				AAB3BA7427318316005B4AC9 /* CustomBinderViewController.swift in Sources */,
 				AAB3BA4927316C67005B4AC9 /* ProductTableViewCell.swift in Sources */,
 				AAB3BA5E273170F6005B4AC9 /* RxCocoaAlertViewController.swift in Sources */,
 				AAB3BA65273177B3005B4AC9 /* CocoaTouchNotificationCenterViewController.swift in Sources */,
 				AA83598F27303D0600F5BFFB /* DriverViewController.swift in Sources */,
 				AAB3BA5027316CB1005B4AC9 /* MaterialColor.swift in Sources */,
 				AAB3BA6C273179EC005B4AC9 /* RxCocoaGestureViewController.swift in Sources */,
+				AAB3BA7527318316005B4AC9 /* CustomControlPropertyViewController.swift in Sources */,
 				AA83598527303CCC00F5BFFB /* BindingRxCocoaViewController.swift in Sources */,
 				AA26A80C2727144A00C35F53 /* SceneDelegate.swift in Sources */,
 				AAA92470272DC07F0076CB28 /* HelloRxCocoaViewController.swift in Sources */,
