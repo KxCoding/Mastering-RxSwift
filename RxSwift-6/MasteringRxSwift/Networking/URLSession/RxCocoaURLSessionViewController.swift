@@ -37,8 +37,9 @@ class RxCocoaURLSessionViewController: UIViewController {
     
     @IBOutlet weak var listTableView: UITableView!
     
-    let list = BehaviorSubject(value: [Book]())
+    @IBOutlet weak var loader: UIActivityIndicatorView!
     
+    let list = BehaviorSubject<[Book]>(value: [])
     
     override func viewDidLoad() {
         super.viewDidLoad()

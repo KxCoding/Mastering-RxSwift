@@ -73,7 +73,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GDE-yj-aiF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-99" y="134"/>
+            <point key="canvasLocation" x="-220" y="384"/>
         </scene>
         <!--CocoaTouch - URLSession-->
         <scene sceneID="SzY-1B-7nR">
@@ -88,21 +88,21 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="NVX-wP-9z3" detailTextLabel="85E-jU-uvn" style="IBUITableViewCellStyleSubtitle" id="N5S-Ks-1Th">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="55.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="52.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N5S-Ks-1Th" id="sXX-JF-gUX">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="52.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="NVX-wP-9z3">
-                                                    <rect key="frame" x="20" y="9.5" width="28.5" height="17"/>
+                                                    <rect key="frame" x="20" y="7.5" width="28.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="85E-jU-uvn">
-                                                    <rect key="frame" x="20" y="29" width="47" height="16"/>
+                                                    <rect key="frame" x="20" y="27" width="47" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -116,6 +116,9 @@
                                     <outlet property="dataSource" destination="nOD-ck-SwM" id="tyN-Mo-Tg4"/>
                                 </connections>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Iue-rk-IQY">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kwv-ZM-Bhs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -124,11 +127,14 @@
                             <constraint firstItem="anY-eV-zdT" firstAttribute="top" secondItem="ufk-Oz-xSN" secondAttribute="top" id="E8d-UB-0bJ"/>
                             <constraint firstItem="anY-eV-zdT" firstAttribute="trailing" secondItem="kwv-ZM-Bhs" secondAttribute="trailing" id="Xf9-SG-20c"/>
                             <constraint firstItem="anY-eV-zdT" firstAttribute="leading" secondItem="kwv-ZM-Bhs" secondAttribute="leading" id="eOg-2H-Chk"/>
+                            <constraint firstItem="Iue-rk-IQY" firstAttribute="centerX" secondItem="ufk-Oz-xSN" secondAttribute="centerX" id="hE6-0n-Hum"/>
+                            <constraint firstItem="Iue-rk-IQY" firstAttribute="centerY" secondItem="ufk-Oz-xSN" secondAttribute="centerY" id="qQO-BI-QgY"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="CocoaTouch - URLSession" id="SZf-7E-Fyj"/>
                     <connections>
                         <outlet property="listTableView" destination="anY-eV-zdT" id="Ywa-we-ZN0"/>
+                        <outlet property="loader" destination="Iue-rk-IQY" id="wGN-oZ-xnn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bNK-En-2A8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -148,21 +154,21 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="Izc-sk-pGI" detailTextLabel="KY1-0N-6Mq" style="IBUITableViewCellStyleSubtitle" id="JaG-tb-8La">
-                                        <rect key="frame" x="0.0" y="44.5" width="414" height="55.5"/>
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="52.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JaG-tb-8La" id="cAZ-uE-qGG">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="52.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="Izc-sk-pGI">
-                                                    <rect key="frame" x="20" y="9.5" width="28.5" height="17"/>
+                                                    <rect key="frame" x="20" y="7.5" width="28.5" height="17"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" id="KY1-0N-6Mq">
-                                                    <rect key="frame" x="20" y="29" width="47" height="16"/>
+                                                    <rect key="frame" x="20" y="27" width="47" height="16"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor"/>
@@ -173,19 +179,25 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="IOb-EL-hSo">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uSK-cd-lau"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="IfJ-cd-ua8" firstAttribute="trailing" secondItem="uSK-cd-lau" secondAttribute="trailing" id="8dk-7K-y9d"/>
                             <constraint firstItem="IfJ-cd-ua8" firstAttribute="top" secondItem="vye-0H-1Wj" secondAttribute="top" id="E3f-2w-0hj"/>
+                            <constraint firstItem="IOb-EL-hSo" firstAttribute="centerX" secondItem="vye-0H-1Wj" secondAttribute="centerX" id="O9X-jl-XOW"/>
                             <constraint firstItem="IfJ-cd-ua8" firstAttribute="leading" secondItem="uSK-cd-lau" secondAttribute="leading" id="edr-nL-Txr"/>
                             <constraint firstAttribute="bottom" secondItem="IfJ-cd-ua8" secondAttribute="bottom" id="j1o-hU-nVC"/>
+                            <constraint firstItem="IOb-EL-hSo" firstAttribute="centerY" secondItem="vye-0H-1Wj" secondAttribute="centerY" id="uci-jv-0Lr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="RxCocoa - URLSession" id="fMS-Ow-bTT"/>
                     <connections>
                         <outlet property="listTableView" destination="IfJ-cd-ua8" id="VRo-gc-s1z"/>
+                        <outlet property="loader" destination="IOb-EL-hSo" id="6l5-AL-xt4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QVj-ns-gPt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

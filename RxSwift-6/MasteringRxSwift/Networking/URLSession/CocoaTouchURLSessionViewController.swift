@@ -28,6 +28,8 @@ class CocoaTouchURLSessionViewController: UIViewController {
     
     @IBOutlet weak var listTableView: UITableView!
     
+    @IBOutlet weak var loader: UIActivityIndicatorView!
+    
     var list = [Book]()
     
     override func viewDidLoad() {
@@ -44,12 +46,17 @@ class CocoaTouchURLSessionViewController: UIViewController {
             fatalError("Invalid URL")
         }
         
+        DispatchQueue.main.async { [weak self] in
+            self?.loader.startAnimating()
+        }        
+        
         let session = URLSession.shared
         
         let task = session.dataTask(with: url) { [weak self] (data, response, error) in
             defer {
                 DispatchQueue.main.async { [weak self] in
                     self?.listTableView.reloadData()
+                    self?.loader.stopAnimating()
                 }
             }
             

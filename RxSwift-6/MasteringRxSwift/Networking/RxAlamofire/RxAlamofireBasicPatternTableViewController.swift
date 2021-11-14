@@ -30,7 +30,7 @@ class RxAlamofireBasicPatternTableViewController: UIViewController {
     
     @IBOutlet weak var listTableView: UITableView!
     
-    let list = BehaviorSubject(value: [Book]())
+    let list = BehaviorSubject<[Book]>(value: [])
     
     
     override func viewDidLoad() {
