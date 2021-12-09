@@ -55,7 +55,6 @@ let source = Observable<Int>.create { observer in
 }
 
 source
-    .retry()
     .subscribe { print($0) }
     .disposed(by: bag)
 

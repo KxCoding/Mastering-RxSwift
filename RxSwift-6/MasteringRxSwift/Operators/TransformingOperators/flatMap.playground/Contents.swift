@@ -34,7 +34,7 @@ let redCircle = "🔴"
 let greenCircle = "🟢"
 let blueCircle = "🔵"
 
-let redRectangle = "🟥"
-let greenRectangle = "🟩"
-let blueRectangle = "🟦"
+let redHeart = "❤️"
+let greenHeart = "💚"
+let blueHeart = "💙"
 

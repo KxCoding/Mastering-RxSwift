@@ -25,7 +25,7 @@ import UIKit
 import RxSwift
 
 /*:
- # flatMapLatest
+ # flatMapFirst #1
  */
 
 let disposeBag = DisposeBag()
@@ -38,24 +38,18 @@ let redHeart = "❤️"
 let greenHeart = "💚"
 let blueHeart = "💙"
 
-let sourceObservable = PublishSubject<String>()
-let trigger = PublishSubject<Void>()
-
-sourceObservable
+Observable.from([redCircle, greenCircle, blueCircle])
     .flatMap { circle -> Observable<String> in
         switch circle {
         case redCircle:
-            return Observable<Int>.interval(.milliseconds(200), scheduler: MainScheduler.instance)
-                .map { _ in redHeart}
-                .take(until: trigger)
+            return Observable.repeatElement(redHeart)
+                .take(5)
         case greenCircle:
-            return Observable<Int>.interval(.milliseconds(200), scheduler: MainScheduler.instance)
-                .map { _ in greenHeart}
-                .take(until: trigger)
+            return Observable.repeatElement(greenHeart)
+                .take(5)
         case blueCircle:
-            return Observable<Int>.interval(.milliseconds(200), scheduler: MainScheduler.instance)
-                .map { _ in blueHeart}
-                .take(until: trigger)
+            return Observable.repeatElement(blueHeart)
+                .take(5)
         default:
             return Observable.just("")
         }
@@ -63,16 +57,11 @@ sourceObservable
     .subscribe { print($0) }
     .disposed(by: disposeBag)
 
-sourceObservable.onNext(redCircle)
 
-DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-    sourceObservable.onNext(greenCircle)
-}
 
-DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-    sourceObservable.onNext(blueCircle)
-}
+//: [Next](@next)
 
-DispatchQueue.main.asyncAfter(deadline: .now() + 10) {
-    trigger.onNext(())
-}
+
+
+
+

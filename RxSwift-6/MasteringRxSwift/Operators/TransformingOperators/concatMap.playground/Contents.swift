@@ -34,21 +34,21 @@ let redCircle = "🔴"
 let greenCircle = "🟢"
 let blueCircle = "🔵"
 
-let redRectangle = "🟥"
-let greenRectangle = "🟩"
-let blueRectangle = "🟦"
+let redHeart = "❤️"
+let greenHeart = "💚"
+let blueHeart = "💙"
 
 Observable.from([redCircle, greenCircle, blueCircle])
     .flatMap { circle -> Observable<String> in
         switch circle {
         case redCircle:
-            return Observable.repeatElement(redRectangle)
+            return Observable.repeatElement(redHeart)
                 .take(5)
         case greenCircle:
-            return Observable.repeatElement(greenRectangle)
+            return Observable.repeatElement(greenHeart)
                 .take(5)
         case blueCircle:
-            return Observable.repeatElement(blueRectangle)
+            return Observable.repeatElement(blueHeart)
                 .take(5)
         default:
             return Observable.just("")

@@ -162,6 +162,7 @@
 		AA83599827303FFF00F5BFFB /* View.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = View.storyboard; sourceTree = "<group>"; };
 		AA83599A2730494100F5BFFB /* CocoaTouchViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTouchViewViewController.swift; sourceTree = "<group>"; };
 		AA83599C2730494E00F5BFFB /* RxCocoaViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCocoaViewViewController.swift; sourceTree = "<group>"; };
+		AA9A485F2761EDE1002EBAAB /* Infallible.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Infallible.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245C272D182A0076CB28 /* overveiw.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = overveiw.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245D272D24AE0076CB28 /* multicast.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = multicast.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAA9245E272D357E0076CB28 /* publish.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = publish.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -384,11 +385,11 @@
 			children = (
 				AA7C9F0A272A614600EBB9F2 /* toArray.playground */,
 				AA7C9F0B272A621800EBB9F2 /* map.playground */,
+				AA7C9F10272A716D00EBB9F2 /* compactMap.playground */,
 				AA7C9F0D272A707700EBB9F2 /* flatMap.playground */,
 				AA7C9F0E272A70BA00EBB9F2 /* flatMapFirst.playground */,
 				AA7C9F0F272A70D100EBB9F2 /* flatMapLatest.playground */,
 				AA7C9F0C272A628400EBB9F2 /* concatMap.playground */,
-				AA7C9F10272A716D00EBB9F2 /* compactMap.playground */,
 				AA7C9F11272A73A500EBB9F2 /* scan.playground */,
 				AA7C9F12272A73BC00EBB9F2 /* buffer.playground */,
 				AA7C9F13272A73D800EBB9F2 /* window.playground */,
@@ -959,6 +960,7 @@
 			children = (
 				AAF90DF627271BC200BAEDF7 /* Observables.playground */,
 				AAF90DF727271CD700BAEDF7 /* Observers.playground */,
+				AA9A485F2761EDE1002EBAAB /* Infallible.playground */,
 				AAF90DF827271EA100BAEDF7 /* Disposables.playground */,
 				AAF90DF9272722B900BAEDF7 /* Operators.playground */,
 			);

@@ -25,37 +25,27 @@ import UIKit
 import RxSwift
 
 /*:
- # flatMapFirst
+ # Infallible
  */
 
-let disposeBag = DisposeBag()
+enum MyError: Error {
+    case unknown
+}
 
-let redCircle = "🔴"
-let greenCircle = "🟢"
-let blueCircle = "🔵"
+let observable = Observable<String>.create { observer in
+    observer.onNext("Hello")
+    observer.onNext("Observable")
+    
+    //observer.onError(MyError.unknown)
+    
+    observer.onCompleted()
+    
+    return Disposables.create()
+}
 
-let redRectangle = "🟥"
-let greenRectangle = "🟩"
-let blueRectangle = "🟦"
 
-Observable.from([redCircle, greenCircle, blueCircle])
-    .flatMap { circle -> Observable<String> in
-        switch circle {
-        case redCircle:
-            return Observable.repeatElement(redRectangle)
-                .take(5)
-        case greenCircle:
-            return Observable.repeatElement(greenRectangle)
-                .take(5)
-        case blueCircle:
-            return Observable.repeatElement(blueRectangle)
-                .take(5)
-        default:
-            return Observable.just("")
-        }
-    }
-    .subscribe { print($0) }
-    .disposed(by: disposeBag)
+
+
 
 
 
