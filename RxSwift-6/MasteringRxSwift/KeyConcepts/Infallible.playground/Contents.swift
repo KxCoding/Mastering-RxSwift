@@ -27,11 +27,21 @@ import RxSwift
 /*:
  # Infallible
  */
+/*
+ 1. 절대 보증할 수 있는
+ 2. 결코 틀리지 않은
+ 3. 절대 옳은
+ 
+새로운 형태의 Observable
+error는 방출하지 않음.
+ 
+ */
 
 enum MyError: Error {
     case unknown
 }
 
+//Observable
 let observable = Observable<String>.create { observer in
     observer.onNext("Hello")
     observer.onNext("Observable")
@@ -41,6 +51,14 @@ let observable = Observable<String>.create { observer in
     observer.onCompleted()
     
     return Disposables.create()
+}
+
+//Infallible - InfallibleEvent에는 next, completed만 있다. error는 없어 방출하지 않는다.
+let infallible = Infallible<String>.create { observer in
+  observer(.next("Hello"))
+  observer(.completed)
+  
+  return Disposables.create()
 }
 
 
