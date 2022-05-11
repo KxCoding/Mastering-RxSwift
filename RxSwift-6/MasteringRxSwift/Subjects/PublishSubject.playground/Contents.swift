@@ -28,6 +28,10 @@ import RxSwift
 /*:
  # PublishSubject
  */
+/*
+ Subject로 전달하는 이벤트를 observer에게 전달
+ 가장 기본의 subject
+ */
 
 let disposeBag = DisposeBag()
 
@@ -35,8 +39,31 @@ enum MyError: Error {
    case error
 }
 
+// 비어있는 상태로 생성, 내부의 이벤트를 저장하지 않음. observer 혹은 observable
+// onNext로 이벤트를 추가 (observable)
+let subject = PublishSubject<String>()
+subject.onNext("Hello")
+
+// subscribe로 구독 (observer)
+// 구독 이후에 이벤트를 추가해야 전달이 된다. 위는 전달되지 않는다
+let o1 = subject.subscribe { print(">> 1", $0)}
+o1.disposed(by: disposeBag)
+subject.onNext("RxSwift")
+
+// subject는 Subject만 전달된다.
+let o2 = subject.subscribe { print(">> 2", $0) }
+o2.disposed(by: disposeBag)
+subject.onNext("Subject")
+
+//onCompleted를 전달하면 종료된다.
+subject.onCompleted()
+
+//onError를 전달하면 모든 구독자에게 error가 전달된다. 모든 이벤트가 사라짐 원하지 않으면 replay사용.
+subject.onError(MyError.error)
 
 
+let o3 = subject.subscribe { print(">> 3", $0) }
+o3.disposed(by: disposeBag)
 
 
 

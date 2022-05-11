@@ -33,7 +33,7 @@ let bag = DisposeBag()
 // 두 가지 이상의 연산자를 추가 할 수 있다.
 Observable.from([1, 2, 3, 4, 5, 6, 7, 8, 9])
     .take(5) //연산자 1 - 배열의 5개 까지 뽑아낸다.
-    .filter { #0.isMultiple(of: 2)} // 연산자 2 - 짝수만 뽑아낸다
+    .filter { $0.isMultiple(of: 2)} // 연산자 2 - 짝수만 뽑아낸다
     .subscribe { print($0) }
     .disposed(by: bag)
 

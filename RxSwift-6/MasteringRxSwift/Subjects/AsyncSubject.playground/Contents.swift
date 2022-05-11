@@ -27,6 +27,9 @@ import RxSwift
 /*:
  # AsyncSubject
  */
+/*
+ completed 이벤트가 전달되어야 가장 최신의 next 이벤트를 전달한다.
+ */
 
 let bag = DisposeBag()
 
@@ -34,7 +37,23 @@ enum MyError: Error {
    case error
 }
 
+let subject = AsyncSubject<Int>()
 
+subject
+  .subscribe { print($0) }
+  .disposed(by: bag)
+
+// next 이벤트를 전달하였지만 onCompleted 이벤트를 전달 하지않아 구독자에게 전달되지 않는다
+subject.onNext(1)
+subject.onNext(2)
+subject.onNext(3)
+
+// onCompleted 이벤트를 전달하면 가장 최근의 next이벤트가 전달된다 next(3)
+// 이벤트가 없다면, completed만 전달된다.
+subject.onCompleted()
+
+// error 이벤트를 전달하면 next 이벤트가 전달되지 않고 종료된다.
+subject.onError(MyError.error)
 
 
 
