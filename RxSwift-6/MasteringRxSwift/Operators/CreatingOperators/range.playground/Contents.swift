@@ -27,8 +27,15 @@ import RxSwift
 /*:
  # range
  */
+/*
+ 시작값에서 1씩 증가, 이 조건을 바꿀수 없다.
+ start는 무조건 양수사용
+ */
 
 let disposeBag = DisposeBag()
+Observable.range(start: 1, count: 10)
+  .subscribe { print($0) }
+  .disposed(by: disposeBag)
 
 
 

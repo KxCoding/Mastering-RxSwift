@@ -27,6 +27,10 @@ import RxSwift
 /*:
  # error
  */
+/*
+ 어떠한 요소도 방출하지 않는다.
+ 주로 error를 처리하기 위해 사용
+ */
 
 let disposeBag = DisposeBag()
 
@@ -34,7 +38,9 @@ enum MyError: Error {
    case error
 }
 
-
+Observable<Void>.error(MyError.error)
+  .subscribe{ print($0) }
+  .disposed(by: disposeBag)
 
 
 

@@ -27,9 +27,16 @@ import RxSwift
 /*:
  # from
  */
+/*
+ 배열을 파라미터로 받아 배열의 요소를 하나씩 방출하는 observable 생성
+ */
 
 let disposeBag = DisposeBag()
 let fruits = ["🍏", "🍎", "🍋", "🍓", "🍇"]
+
+Observable.from(fruits)
+  .subscribe { element in print(element) } // onNext(🍏), onNext(🍎), onNext(🍋), onNext(🍓), onNext(🍇), completed
+  .disposed(by: disposeBag)
 
 
 

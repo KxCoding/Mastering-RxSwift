@@ -23,9 +23,14 @@
 
 import UIKit
 import RxSwift
+import Dispatch
 
 /*:
  # create
+ */
+/*
+  observable이 동작하는 방식을 직접 구현
+  Disposable 방출
  */
 
 let disposeBag = DisposeBag()
@@ -34,6 +39,25 @@ enum MyError: Error {
    case error
 }
 
-
-
-
+Observable<String>.create { (observer) -> Disposable in
+  guard let url = URL(string:  "http://www.apple.com") else {
+    observer.onError(MyError.error)
+    return Disposables.create() // Disposables
+  }
+  
+  guard let html = try? String(contentsOf: url, encoding: .utf8) else {
+    observer.onError(MyError.error)
+    return Disposables.create()
+  }
+  
+  observer.onNext(html) // 정상적인 url을 방출, 존재하지 않는다면 error 방출
+  observer.onCompleted()
+  
+  observer.onNext("After completed")
+  // completed 후 새로운 문자열을 방출하면 더 이상 이벤트를 방출하지 않는다.
+  // 종료하고 싶다면 onError나, onCompleted 호출해야함.
+  
+  return Disposables.create()
+}
+.subscribe { print(($0)) }
+.disposed(by: disposeBag)

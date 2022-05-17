@@ -53,7 +53,7 @@ prelay.accept(1)
 
 // BehaviorRelay
 // 가장 최근의 이벤트가 전달 next(2)
-// value는 읽기 전용이며 값을 바꿀수 없다 바꾸려면 accept하면 가장 최근의 이벤트 next(3)이 전달된다.
+// value는 읽기 전용이며 값을 바꿀수 없다 바꾸려면 accept 가장 최근의 이벤트 next(3)이 전달된다.
 let brelay = BehaviorRelay(value: 1)
 brelay.accept(2)
 brelay.subscribe { print("2: \($0)")}

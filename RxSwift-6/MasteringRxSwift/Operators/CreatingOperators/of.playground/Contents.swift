@@ -27,12 +27,21 @@ import RxSwift
 /*:
  # of
  */
-
+/*
+ 두개 이상의 항목을 방출하는 observable 생성
+ */
 let disposeBag = DisposeBag()
 let apple = "🍏"
 let orange = "🍊"
 let kiwi = "🥝"
 
+Observable.of(apple, orange, kiwi)
+  .subscribe { element in print(element)} //onNext(🍏) onNext(🍊) onNext(🥝) completed
+  .disposed(by: disposeBag)
+
+Observable.of([1, 2], [3, 4], [5, 6])
+  .subscribe { element in print(element) } //onNext([1, 2]) onNext([3, 4]) onNext([5, 6]) completed
+  .disposed(by: disposeBag)
 
 
 

@@ -27,13 +27,27 @@ import RxSwift
 /*:
  # generate
  */
+/*
+ 값이 바뀌는 조건이 필요할 때 사용
+ 4개의 파라미터를 받는다.
+ initialState = 시작 값
+ condition = true 조건 설정, false일 때 종료
+ iterate = 값을 바꾸는 코드를 전달
+ */
 
 let disposeBag = DisposeBag()
 let red = "🔴"
 let blue = "🔵"
 
+// 0으로 시작하여 10 이하, 값을 2씩 증가
+Observable.generate(initialState: 0, condition: { $0 <= 10 }, iterate: { $0 + 2 })
+  .subscribe { print($0) }
+  .disposed(by: disposeBag)
 
-
+// red 시작, 문자열의 길이가 15 미만, 현재 문자열 뒤에 다른 컬러 추가
+Observable.generate(initialState: red, condition: { $0.count < 15 }, iterate: { $0.count.isMultiple(of: 2) ? $0 + red : $0 + blue })
+  .subscribe { print($0) }
+  .disposed(by: disposeBag)
 
 
 

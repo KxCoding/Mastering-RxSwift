@@ -27,8 +27,17 @@ import RxSwift
 /*:
  # repeatElement
  */
+/*
+ 요소를 반복적으로 리턴
+ take를 사용하면 제한됨
+ */
 
 let disposeBag = DisposeBag()
 let element = "❤️"
+
+Observable.repeatElement(element)
+  .take(7)
+  .subscribe { print($0) }
+  .disposed(by: disposeBag)
 
 

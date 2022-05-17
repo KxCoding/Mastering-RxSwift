@@ -27,11 +27,39 @@ import RxSwift
 /*:
  # deferred
  */
+/*
+ 특정 조건에 따라 observer 생성
+ Observable를 return
+ */
 
 let disposeBag = DisposeBag()
 let animals = ["🐶", "🐱", "🐹", "🐰", "🦊", "🐻", "🐯"]
 let fruits = ["🍎", "🍐", "🍋", "🍇", "🍈", "🍓", "🍑"]
 var flag = true
+
+let factory: Observable<String> = Observable.deferred  { // 타입 어노테이션 설정해야함.
+  flag.toggle()
+  
+  if flag {
+    return Observable.from(animals)
+  } else {
+    return Observable.from(fruits)
+  }
+}
+
+// 새로운 observable을 생성
+factory
+  .subscribe { print($0) } // false로 과일 하나씩 순서대로 방출
+  .disposed(by: disposeBag)
+
+factory
+  .subscribe { print($0) } // true로 동물들이 하나씩 순서대로 방출
+  .disposed(by: disposeBag)
+
+factory
+  .subscribe { print($0) } // false
+  .disposed(by: disposeBag)
+
 
 
 

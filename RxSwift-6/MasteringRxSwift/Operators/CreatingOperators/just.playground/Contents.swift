@@ -27,9 +27,19 @@ import RxSwift
 /*:
  # just
  */
+/*
+ 하나의 항목을 방출하는 observable 생성
+ */
 
 let disposeBag = DisposeBag()
 let element = "😀"
 
+Observable.just(element)
+  .subscribe { event in print(event) } //next(😀) completed
+  .disposed(by: disposeBag)
+
+Observable.just([1, 2, 3])
+  .subscribe { event in print(event) } //next([1, 2, 3]) completed
+  .disposed(by: disposeBag)
 
 

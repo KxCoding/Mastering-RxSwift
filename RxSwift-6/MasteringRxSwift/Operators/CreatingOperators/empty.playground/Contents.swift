@@ -27,7 +27,13 @@ import RxSwift
 /*:
  # empty
  */
+/*
+ 어떠한 요소도 방출하지 않아서 보통 void로 선언
+ completed를 전달하기 위해서 사용하는 연산
+ */
 
 let disposeBag = DisposeBag()
 
-
+Observable<Void>.empty()
+  .subscribe { print($0) }
+  .disposed(by: disposeBag)
