@@ -56,8 +56,80 @@ class RxCocoaURLSessionViewController: UIViewController {
     
     
     func fetchBookList() {
-        
-        
-        
+        //아래 주석과 같은 결과
+        let response = Observable.just(booksUrlStr)
+            .map { URL(string: $0)! }
+            .map { URLRequest(url: $0) }
+            .flatMap { URLSession.shared.rx.data(request: $0) }
+            .map(BookList.parse(data:))
+            .asDriver(onErrorJustReturn: [])
+
     }
-}
+//    func fetchBookList() {
+//        let response = Observable<[Book]>.create { observer in
+//
+//            guard let url = URL(string: booksUrlStr) else {
+//                observer.onError(ApiError.badUrl)
+//                return Disposables.create()
+//            }
+//
+//            DispatchQueue.main.async { [weak self] in
+//                self?.loader.startAnimating()
+//            }
+//
+//            let session = URLSession.shared
+//
+//            let task = session.dataTask(with: url) { [weak self] (data, response, error) in
+//
+//                if let error = error {
+//                    observer.onError(error)
+//                    return
+//                }
+//
+//                guard let httpResponse = response as? HTTPURLResponse else {
+//                    observer.onError(ApiError.invalidResponse)
+//                    return
+//                }
+//
+//                guard (200...299).contains(httpResponse.statusCode) else {
+//                    observer.onError(ApiError.failed(httpResponse.statusCode))
+//                    return
+//                }
+//
+//                guard let data = data else {
+//                    observer.onError(ApiError.invalidData)
+//                    return
+//                }
+//
+//                do {
+//                    let decoder = JSONDecoder()
+//                    let bookList = try decoder.decode(BookList.self, from: data)
+//
+//                    if bookList.code == 200 {
+//                        observer.onNext(bookList.list)
+//                    } else {
+//                        observer.onNext([])
+//                    }
+//                    observer.onCompleted()
+//                } catch {
+//                    observer.onError(error)
+//                }
+//            }
+//            task.resume()
+//
+//            return Disposables.create {
+//                task.cancel()
+//            }
+//        }
+//            .asDriver(onErrorJustReturn: [])
+//        response
+//            .drive(list)
+//            .disposed(by: rx.disposeBag)
+//
+//        response
+//            .map { _ in false }
+//            .startWith(true)
+//            .drive(UIApplication.shared.rx.isNetworkActivityIndicatorVisible)
+//            .disposed(by: rx.disposeBag)
+//    }
+//}
