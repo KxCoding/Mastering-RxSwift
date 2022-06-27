@@ -65,6 +65,8 @@ class RxCocoaURLSessionViewController: UIViewController {
             .asDriver(onErrorJustReturn: [])
 
     }
+    
+}
 //    func fetchBookList() {
 //        let response = Observable<[Book]>.create { observer in
 //
