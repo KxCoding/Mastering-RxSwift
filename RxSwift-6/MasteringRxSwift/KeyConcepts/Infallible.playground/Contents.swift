@@ -32,8 +32,8 @@ import RxSwift
  2. 결코 틀리지 않은
  3. 절대 옳은
  
-새로운 형태의 Observable
-error는 방출하지 않음.
+ 새로운 형태의 Observable, 리소스를 공유하지 않는다.
+ error는 방출하지 않음.
  
  */
 
@@ -53,12 +53,13 @@ let observable = Observable<String>.create { observer in
     return Disposables.create()
 }
 
-//Infallible - InfallibleEvent에는 next, completed만 있다. error는 없어 방출하지 않는다.
+/*Infallible - InfallibleEvent에는 next, completed만 있다. error는 InfallibleEvent case에 없어               방출하지 않는다.
+ 위의 코드와 같다. */
 let infallible = Infallible<String>.create { observer in
-  observer(.next("Hello"))
-  observer(.completed)
-  
-  return Disposables.create()
+    observer(.next("Hello"))
+    observer(.completed)
+    
+    return Disposables.create()
 }
 
 

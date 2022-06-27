@@ -28,7 +28,7 @@ import RxSwift
  # AsyncSubject
  */
 /*
- completed 이벤트가 전달되어야 가장 최신의 next 이벤트를 전달한다.
+서브젝트로 completed 이벤트가 전달되는 시점에 가장 마지막으로 전달 된 next 이벤트를 구독자에게 전달한다.
  */
 
 let bag = DisposeBag()

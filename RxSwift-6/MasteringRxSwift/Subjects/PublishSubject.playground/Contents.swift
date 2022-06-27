@@ -29,7 +29,7 @@ import RxSwift
  # PublishSubject
  */
 /*
- Subject로 전달하는 이벤트를 observer에게 전달
+ 비어있는 생성자를 사용, Subject로 전달하는 새로운 이벤트를 observer에게 전달
  가장 기본의 subject
  */
 

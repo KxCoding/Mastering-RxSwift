@@ -29,14 +29,12 @@ import RxCocoa
  # Relay
  */
 /*
- RxCocoa를 inport 해야 사용할 수 있으며, 각 subject를 래핑하고 있다.
+ RxCocoa를 import 해야 사용할 수 있으며, 각 subject를 래핑하고 있다.
  
- PublishRelay
- BehaviorRelay
- ReplayRelay
- 
- next event만 전달하기 때문에 종료되지 않고, 구독자가 disposed 되어야 종료
- UI에 많이 사용
+ PublishRelay - Publish Subject를 래핑
+ BehaviorRelay - Behavior Subject를 래핑
+ ReplayRelay - next event만 전달하기 때문에 종료되지 않고, 구독자가 disposed 되어야 종료
+               UI에 많이 사용
  */
 
 let bag = DisposeBag()

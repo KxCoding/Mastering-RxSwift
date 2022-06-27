@@ -30,7 +30,7 @@ import RxSwift
  */
 
 //#1
-// 순서대로 출력, onDisposed를 설정해두면 해지되는 시점에 onDisposed를 호출한다. 호출하기 원하면 #1처럼 코드 작성
+// 순서대로 출력, onDisposed를 설정해두면 dispose() 되는 시점에 onDisposed를 호출한다. 호출하기 원하면 #1처럼 코드 작성
 
 let subscription1 = Observable.from([1, 2, 3])
   .subscribe(onNext: { elem in
@@ -72,7 +72,7 @@ let subscroption2 = Observable<Int>.interval(.seconds(1), scheduler: MainSchedul
   })
 
 //무한정 방출하여 방출 중단을 위해 dispose 사용, completed를 호출하지 않아 추천하진 않는다. 특정 시점에 중단을 원하면 takeUntile 하는 것이 좋다.
-DispatchQueue.main,asyncAfter(deadline: .now() + 3) {
+DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
   subscroption2.dispose()
 }
 

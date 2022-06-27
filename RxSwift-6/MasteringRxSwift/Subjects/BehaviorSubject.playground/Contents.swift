@@ -28,7 +28,8 @@ import RxSwift
  # BehaviorSubject
  */
 /*
-  Publish는 비어있는 생성자를 사용하지만
+  생성 시점에 시작 이벤트를 지정,
+  Subject로 전달되는 이벤트 중에서 가장 마지막 전달 된 이벤트를 저장해 두었다가 새로운 구독자에게 전달
   Behavior를 생성할 때는 하나의 값을 전달한다.
  */
 
