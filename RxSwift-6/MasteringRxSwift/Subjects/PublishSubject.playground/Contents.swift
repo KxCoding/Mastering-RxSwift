@@ -30,16 +30,16 @@ import RxSwift
  */
 /*
  비어있는 생성자를 사용, Subject로 전달하는 새로운 이벤트를 observer에게 전달
- 가장 기본의 subject
+ 가장 기본적인 형태의 subject
  */
 
 let disposeBag = DisposeBag()
 
 enum MyError: Error {
-   case error
+    case error
 }
 
-// 비어있는 상태로 생성, 내부의 이벤트를 저장하지 않음. observer 혹은 observable
+// parameter 없이 비어있는 상태로 생성, 내부의 이벤트를 저장하지 않음. observable인 동시에 observer
 // onNext로 이벤트를 추가 (observable)
 let subject = PublishSubject<String>()
 subject.onNext("Hello")
@@ -55,7 +55,7 @@ let o2 = subject.subscribe { print(">> 2", $0) }
 o2.disposed(by: disposeBag)
 subject.onNext("Subject")
 
-//onCompleted를 전달하면 종료된다.
+//onCompleted를 전달하면 종료된다. next 이벤트가 전달되지 않음
 subject.onCompleted()
 
 //onError를 전달하면 모든 구독자에게 error가 전달된다. 모든 이벤트가 사라짐 원하지 않으면 replay사용.
