@@ -54,7 +54,7 @@ DEPENDENCIES:
   - RxSwiftExt
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Action
     - Alamofire
     - Differentiator
@@ -88,4 +88,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 83748d62a8ed30ec84e473df887cb482113cb550
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.11.3
