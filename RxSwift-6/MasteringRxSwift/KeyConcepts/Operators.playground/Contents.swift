@@ -28,11 +28,22 @@ import RxSwift
 /*:
  # Operators
  */
-
+/**
+ * 연산자로 파라미터를 더하고 빼는 등의 정제 과정을 수행한다
+ * 연산자는 새로운 옵저버블을 반환
+ * 연산자의 순서에 따라 다른 결과가 나오기 때문에 유의하며
+ * 역시 subscribe도 다른 연산자보다 뒤에 와야한다
+ */
 let bag = DisposeBag()
 
 Observable.from([1, 2, 3, 4, 5, 6, 7, 8, 9])
-    .subscribe { print($0) }
+
+    .take(5) // 순서에 유의해야함
+    .filter {
+        $0.isMultiple(of: 2)
+    }
+
+    .subscribe { print($0) } // 연산자는 구독전에 처리되어야 한다
     .disposed(by: bag)
 
 
