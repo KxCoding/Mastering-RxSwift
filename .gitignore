@@ -70,3 +70,5 @@ fastlane/test_output
 RxSwift-5/main/Pods/
 RxSwift-6/main/Pods/
 
+
+.DS_Store
