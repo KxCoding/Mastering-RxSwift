@@ -14,8 +14,7 @@ target 'MasteringRxSwift' do
   pod 'RxSwiftExt'
   pod 'Action'
   pod 'RxDataSources'
-  pod "RxGesture"
-  pod 'RxReachability'
+  pod "RxGesture"  
   pod 'RxKeyboard'
 
   # Networking
